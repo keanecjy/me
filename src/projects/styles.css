@@ -29,8 +29,3 @@
   text-decoration: underline;
   width: fit-content;
 }
-
-.single-project a:hover {
-  text-decoration: none;
-  color: inherit
-}

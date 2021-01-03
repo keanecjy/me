@@ -1,8 +1,7 @@
 .underline {
-  text-decoration: underline;
-  color: inherit;
   font-weight: 600;
   display: block;
+  text-decoration: underline;
 }
 
 .wave-icon {

@@ -1,5 +1,5 @@
 import './App.css';
-import NavigationMenu from "./navigation/NavigationMenu";
+import NavigationMenu from './navigation/NavigationMenu';
 import About from './about/About';
 import Projects from './projects/Projects';
 import Skills from './skills/Skills';

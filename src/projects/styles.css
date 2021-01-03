@@ -9,8 +9,17 @@
   justify-self: center;
 }
 
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-link {
+  margin-bottom: 6px;
+}
+
 .code-link {
-  margin-bottom: 15px;
+  margin-bottom: 26px;
 }
 
 .single-project p {
@@ -18,7 +27,12 @@
 }
 
 .single-project a {
-  display: block;
   text-decoration: underline;
-  font-weight: 600;
+  display: inline;
+  width: 100%;
+}
+
+.single-project a:hover {
+  text-decoration: none;
+  color: inherit
 }

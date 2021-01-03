@@ -19,8 +19,10 @@ const Projects = () => {
       img: ModuleFuture,
       name: 'ModuleFuture',
       description:
-        'A module planning application designed for NUS students to plan ' +
-        'and track their modules.',
+        'ModuleFuture is a module planning mobile application designed for NUS students to plan ' +
+        'and track their modules. It helps students manage and plan their modules in advance, ' +
+        'and provides recommendations for specialization paths based on in-depth statistics ' +
+        'from the modules taken by users.',
       appLink: 'https://play.google.com/store/apps/details?id=com.modulefuture2019.ModuleFuture',
       codeLink: 'https://github.com/keanecjy/ModuleFuture',
       techStack: [reactIcon, jsIcon, firebaseIcon, adobeXdIcon],
@@ -29,8 +31,8 @@ const Projects = () => {
       img: ModuleFuture,
       name: 'SortAlgo',
       description:
-        'A sorting visualizer web application created for everyone to learn and understand ' +
-        'sorting algorithms better.',
+        'SortAlgo is a sorting visualizer web application created for students to learn and' +
+        'understand sorting algorithms better.',
       appLink: 'https://algosort.netlify.app/',
       codeLink: 'https://github.com/keanecjy/sort-algo',
       techStack: [reactIcon, jsIcon, cssIcon, htmlIcon, adobeXdIcon],

@@ -1,0 +1,25 @@
+ .underline {
+  text-decoration: underline;
+  color: inherit;
+  font-weight: 600;
+  display: block;
+}
+
+.intro {
+  font-size: 1.4em;
+  margin-bottom: 28px;
+}
+
+.top {
+  margin-top: 30px;
+  font-family: "Open Sans Semibold", sans-serif;
+}
+
+.school {
+  font-size: 0.9em;
+  font-family: "Open Sans", sans-serif;
+}
+
+.school * {
+  display: inline;
+}

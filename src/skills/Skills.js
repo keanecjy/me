@@ -32,10 +32,14 @@ const Skills = () => {
   return (
     <div id="#skills" className="skills">
       <h1>Skills</h1>
-      <p>I am decent in</p>
-      <IconList icons={skills} />
-      <p>I have dabbled with</p>
-      <IconList icons={skills2} />
+      <div>
+        <p>I am decent in</p>
+        <IconList icons={skills} />
+      </div>
+      <div>
+        <p>I have dabbled with</p>
+        <IconList icons={skills2} />
+      </div>
     </div>
   );
 };

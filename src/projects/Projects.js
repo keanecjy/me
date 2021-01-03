@@ -10,35 +10,37 @@ import {
   jsIcon,
   reactIcon,
 } from '../util/TechStack';
+import ModuleFuture from '../images/ModuleFuture.png';
 
 const Projects = () => {
 
   const projects = [
     {
-      img: null,
+      img: ModuleFuture,
       name: 'ModuleFuture',
       description:
         'A module planning application designed for NUS students to plan ' +
-        'and track their modules',
+        'and track their modules.',
       appLink: 'https://play.google.com/store/apps/details?id=com.modulefuture2019.ModuleFuture',
       codeLink: 'https://github.com/keanecjy/ModuleFuture',
       techStack: [reactIcon, jsIcon, firebaseIcon, adobeXdIcon],
     },
     {
-      img: null,
+      img: ModuleFuture,
       name: 'SortAlgo',
       description:
         'A sorting visualizer web application created for everyone to learn and understand ' +
-        'sorting algorithms better',
+        'sorting algorithms better.',
       appLink: 'https://algosort.netlify.app/',
       codeLink: 'https://github.com/keanecjy/sort-algo',
       techStack: [reactIcon, jsIcon, cssIcon, htmlIcon, adobeXdIcon],
     },
     {
-      img: null,
+      img: ModuleFuture,
       name: 'InternHunter',
       description:
-        'An internship management application built for fast typists',
+        'An internship management application built for students to get the internship they desire. ' +
+        'Optimized for fast typists.',
       appLink: 'https://github.com/AY2021S1-CS2103T-T15-4/tp/releases/tag/v1.4',
       codeLink: 'https://github.com/keanecjy/tp',
       techStack: [javaIcon, javaFxIcon, cssIcon, adobeXdIcon],

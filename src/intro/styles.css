@@ -1,23 +1,27 @@
- .underline {
+.underline {
   text-decoration: underline;
   color: inherit;
   font-weight: 600;
   display: block;
 }
 
+.wave-icon {
+  font-size: 1.7em;
+}
+
 .intro {
   font-size: 1.4em;
-  margin-bottom: 28px;
+  margin-bottom: 50px;
 }
 
 .top {
-  margin-top: 30px;
+  margin-top: 50px;
   font-family: "Open Sans Semibold", sans-serif;
 }
 
 .school {
-  font-size: 0.9em;
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 40px;
 }
 
 .school * {

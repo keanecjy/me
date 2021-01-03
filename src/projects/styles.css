@@ -1,3 +1,24 @@
 .projects {
-  margin-top: 40px;
+  margin-top: 70px;
+}
+
+.project-image {
+  margin-top: 30px;
+  padding: 0 5px;
+  width: 100%;
+  justify-self: center;
+}
+
+.code-link {
+  margin-bottom: 15px;
+}
+
+.single-project p {
+  color: #707070;
+}
+
+.single-project a {
+  display: block;
+  text-decoration: underline;
+  font-weight: 600;
 }

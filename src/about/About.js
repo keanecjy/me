@@ -8,8 +8,8 @@ const About = () => {
     <div id="about" className="about">
       <Header title={'About me'} icon={<GiOpenBook color={'#7a3535'} size={'2em'} />} />
       <p>
-        I enjoy learning and exploring concepts in the vast field of Computer Science. More recently,
-        I have been learning Front-end development and Artificial Intelligence.
+        I enjoy learning and exploring concepts in the vast field of Computer Science. More
+        recently, I have been learning Front-end development and Artificial Intelligence.
       </p>
     </div>
   );

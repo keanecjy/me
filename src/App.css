@@ -8,7 +8,7 @@
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
   font-weight: 500;
-  color: #1C1C1C;
+  color: #1c1c1c;
 }
 
 .app h1 {
@@ -29,7 +29,7 @@
 
 .app a:hover {
   text-decoration: none;
-  color: inherit
+  color: inherit;
 }
 
 .main-app {
@@ -38,10 +38,8 @@
 
 /* Tablets styling */
 @media screen and (min-width: 640px) {
-
 }
 
 /* Laptops and desktop styling */
 @media screen and (min-width: 1008px) {
-
 }

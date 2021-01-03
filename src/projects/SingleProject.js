@@ -3,10 +3,10 @@ import IconList from '../component/iconList/IconList';
 import './styles.css';
 
 const SingleProject = ({ props }) => {
-  const { img, name, description, appLink, codeLink, techStack } = props;
+  const { img, name, description, appLink, codeLink, techStack, marginTop } = props;
 
   return (
-    <div className="single-project">
+    <div className="single-project" style={{marginTop: marginTop}}>
       <img src={img} alt={name} className="project-image" />
       <h2>{name}</h2>
       <p>{description}</p>

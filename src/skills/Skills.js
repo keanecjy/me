@@ -14,6 +14,8 @@ import {
   nodeJsIcon,
   cIcon,
 } from '../util/TechStack';
+import Header from '../component/header/header';
+import { GiSkills } from 'react-icons/all';
 
 const Skills = () => {
   const skills = [
@@ -31,7 +33,7 @@ const Skills = () => {
 
   return (
     <div id="#skills" className="skills">
-      <h1>Skills</h1>
+      <Header title={'Skills'} icon={<GiSkills color={'#7a3535'} size={'2em'} />} />
       <div>
         <p>I am decent in</p>
         <IconList icons={skills} />

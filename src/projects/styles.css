@@ -1,17 +1,16 @@
 .projects {
-  margin-top: 70px;
+  margin-top: 120px;
 }
 
 .project-image {
-  margin-top: 30px;
   padding: 0 5px;
   width: 100%;
   justify-self: center;
 }
 
 .links {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-auto-flow: row;
 }
 
 .app-link {
@@ -28,8 +27,7 @@
 
 .single-project a {
   text-decoration: underline;
-  display: inline;
-  width: 100%;
+  width: fit-content;
 }
 
 .single-project a:hover {

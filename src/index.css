@@ -1,6 +1,9 @@
+/* Reset and scroll */
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+  scroll-padding-top: 59px;
 }
 
 body {
@@ -10,3 +13,4 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
 }
+

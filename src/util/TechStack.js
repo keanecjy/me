@@ -1,14 +1,14 @@
 import react from '../images/react.png';
 import javascript from '../images/javascript.png';
 import firebase from '../images/firebase.png';
-import java from '../images/java.svg';
+import java from '../images/java.png';
 import python from '../images/python.png';
 import css from '../images/css.png';
 import html from '../images/html.png';
 import adobexd from '../images/adobexd.png';
-import javafx from '../images/JavaFX_Logo.png';
+import javafx from '../images/javafx.png';
 import nodejs from '../images/nodejs-icon.svg';
-import c from '../images/C.png';
+import c from '../images/C.svg';
 
 export const reactIcon = { icon: react, name: 'React' };
 export const jsIcon = { icon: javascript, name: 'JavaScript' };

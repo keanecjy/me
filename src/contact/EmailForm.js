@@ -6,7 +6,6 @@ import './styles.css';
 
 const EmailForm = () => {
   // Message should have name, email, message fields.
-
   const sendMessage = (message) => {
     emailjs
       .send('service_6n1ailc', 'template_42ptdtm', message, 'user_iOqMGCDCCLYk0ynGnzqoX')

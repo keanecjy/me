@@ -12,6 +12,11 @@ import {
   reactIcon,
 } from '../util/TechStack';
 import ModuleFuture from '../images/ModuleFuture.png';
+import ModuleFutureGif from '../images/modulefuture.gif';
+import SortAlgo from '../images/sort-algo.png';
+import SortAlgoGif from '../images/sort-algo.gif';
+import InternHunter from '../images/internhunter.jpg';
+import InternHunterGif from '../images/internhunter.gif';
 import { FaLaptopCode } from 'react-icons/all';
 import Header from '../component/header/header';
 
@@ -19,6 +24,7 @@ const Projects = () => {
   const projects = [
     {
       img: ModuleFuture,
+      gif: ModuleFutureGif,
       name: 'ModuleFuture',
       description:
         'ModuleFuture is a module planning mobile application designed for NUS students to plan ' +
@@ -31,7 +37,8 @@ const Projects = () => {
       marginTop: 40,
     },
     {
-      img: ModuleFuture,
+      img: SortAlgo,
+      gif: SortAlgoGif,
       name: 'SortAlgo',
       description:
         'An interactive sorting visualizer web application created for students to learn and ' +
@@ -45,7 +52,8 @@ const Projects = () => {
       marginTop: 90,
     },
     {
-      img: ModuleFuture,
+      img: InternHunter,
+      gif: InternHunterGif,
       name: 'InternHunter',
       description:
         'InternHunter is an internship management application built for students to get the ' +

@@ -23,9 +23,24 @@
 
 .single-project p {
   color: #707070;
+  margin-bottom: 1em;
 }
 
 .single-project a {
-  text-decoration: underline;
   width: fit-content;
+}
+
+.single-project a::after {
+  width: 100%;
+}
+
+.single-project a:hover::after {
+  background: transparent;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 760px) {
+  .single-project p {
+    margin-bottom: 1.4em;
+  }
 }

@@ -1,20 +1,30 @@
 .nav-bar-menu {
-  padding-left: 5vw !important;
-  padding-right: 5vw !important;
+  padding: 8px 5vw 8px 5vw !important;
   font-weight: bold;
   box-shadow: 0 5px 2px 1px rgba(208, 208, 208, 0.2);
 }
 
 .nav-bar a {
-  color: #252525E6 !important;
+  color: #252525e6 !important;
 }
 
 .nav-bar a:hover::after {
   width: 102%;
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 760px) {
+  .nav-bar-menu {
+    padding: 8px 7vw 8px 7vw !important;
+  }
+}
+
 /* Large devices (laptops/desktops, 992px and up) - point of expansion */
 @media only screen and (min-width: 992px) {
+  .nav-bar-menu {
+    padding: 7px 7vw 7px 7vw !important;
+  }
+
   .nav-bar {
     margin-left: auto;
     margin-right: 2vw;
@@ -22,5 +32,12 @@
 
   .nav-bar * {
     margin-left: 30px;
+  }
+}
+
+/* Desktop monitors */
+@media only screen and (min-width: 1600px) {
+  .nav-bar-menu {
+    padding: 7px 10vw 7px 10vw !important;
   }
 }

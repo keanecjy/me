@@ -6,3 +6,7 @@
 .skills > * {
   margin-bottom: 30px;
 }
+
+.skills p {
+  font-size: 1.1em;
+}

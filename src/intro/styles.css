@@ -29,3 +29,9 @@
 .school * {
   display: inline;
 }
+
+@media only screen and (min-width: 1600px) {
+  .intro {
+    font-size: 1.5em;
+  }
+}

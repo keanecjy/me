@@ -6,3 +6,9 @@
 .about p {
   font-family: 'Open Sans', 'sans-serif';
 }
+
+@media screen and (min-width: 1600px) {
+  .about p {
+    font-size: 1.1em;
+  }
+}

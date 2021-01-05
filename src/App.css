@@ -64,12 +64,28 @@
   .intro-and-about {
     width: 80%;
   }
+
+  .main-app {
+    padding: 0 7vw;
+  }
+
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
+/* Desktop monitors */
+@media only screen and (min-width: 1600px) {
+  .intro-and-about {
+    width: 70%;
+  }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+  .main-app {
+    padding: 0 10vw;
+  }
+
+  .app h1 {
+    font-size: 2em;
+  }
+
+  .app h2 {
+    font-size: 1.4em;
+  }
 }

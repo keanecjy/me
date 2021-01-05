@@ -12,22 +12,23 @@ const SingleProject = ({ props }) => {
       <img
         src={image}
         alt={name}
-        style={{borderRadius: 40}}
         className="project-image"
         onMouseEnter={() => setHoverImage(gif)}
         onMouseLeave={() => setHoverImage(img)}
       />
-      <h2>{name}</h2>
-      <p>{description}</p>
-      <div className="links">
-        <a href={appLink} className="app-link" target="_blank" rel="noopener noreferrer">
-          View the application here
-        </a>
-        <a href={codeLink} className="code-link" target="_blank" rel="noopener noreferrer">
-          View the code for {name}
-        </a>
+      <div className="project-description">
+        <h2>{name}</h2>
+        <p>{description}</p>
+        <div className="links">
+          <a href={appLink} className="app-link" target="_blank" rel="noopener noreferrer">
+            View the application here
+          </a>
+          <a href={codeLink} className="code-link" target="_blank" rel="noopener noreferrer">
+            View the code for {name}
+          </a>
+        </div>
+        <IconList icons={techStack} />
       </div>
-      <IconList icons={techStack} />
     </div>
   );
 };

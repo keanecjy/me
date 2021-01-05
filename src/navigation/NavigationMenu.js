@@ -3,7 +3,7 @@ import { Nav, Navbar } from 'react-bootstrap';
 import './styles.css';
 
 const NavigationMenu = () => (
-  <Navbar bg="light" expand="lg">
+  <Navbar sticky="top" bg="light" expand="lg" className="nav-bar-menu">
     <Navbar.Brand href="#">Keane</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">

@@ -1,0 +1,26 @@
+.nav-bar-menu {
+  padding-left: 5vw !important;
+  padding-right: 5vw !important;
+  font-weight: bold;
+  box-shadow: 0 5px 2px 1px rgba(208, 208, 208, 0.2);
+}
+
+.nav-bar a {
+  color: #252525E6 !important;
+}
+
+.nav-bar a:hover::after {
+  width: 102%;
+}
+
+/* Large devices (laptops/desktops, 992px and up) - point of expansion */
+@media only screen and (min-width: 992px) {
+  .nav-bar {
+    margin-left: auto;
+    margin-right: 2vw;
+  }
+
+  .nav-bar * {
+    margin-left: 30px;
+  }
+}

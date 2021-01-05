@@ -1,7 +1,10 @@
 .underline {
   display: block;
   font-weight: 600;
-  text-decoration: underline;
+}
+
+.underline:hover::after {
+  width: 100%;
 }
 
 .wave-icon {

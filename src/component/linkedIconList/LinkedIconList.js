@@ -8,15 +8,24 @@ const LinkedIconList = () => {
     {
       icon: <FaLinkedin color={'#0e76a8'} size={'2em'} />,
       link: 'https://www.linkedin.com/in/keanecjy/',
+      name: 'LinkedIn',
     },
-    { icon: <FaGithub color={'#211F1F'} size={'2em'} />, link: 'https://github.com/keanecjy' },
-    { icon: <FaEnvelope color={'#ababab'} size={'2em'} />, link: 'mailto:keanec@outlook.com' },
+    {
+      icon: <FaGithub color={'#211F1F'} size={'2em'} />,
+      link: 'https://github.com/keanecjy',
+      name: 'GitHub',
+    },
+    {
+      icon: <FaEnvelope color={'#ababab'} size={'2em'} />,
+      link: 'mailto:keanec@outlook.com',
+      name: 'email',
+    },
   ];
 
   return (
     <div className="social-grid">
       {links.map((item) => (
-        <LinkedIcon icon={item.icon} link={item.link} key={item.link} />
+        <LinkedIcon props={item} key={item.link} />
       ))}
     </div>
   );

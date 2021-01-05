@@ -11,8 +11,10 @@ function App() {
     <div className="app">
       <NavigationMenu />
       <div className="main-app">
-        <Intro />
-        <About />
+        <div className="intro-and-about">
+          <Intro />
+          <About />
+        </div>
         <Skills />
         <Projects />
         <Contact />

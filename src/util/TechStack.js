@@ -10,15 +10,15 @@ import javafx from '../images/javafx.png';
 import nodejs from '../images/nodejs-icon.svg';
 import c from '../images/C.svg';
 
-export const reactIcon = { icon: react, name: 'React' };
-export const jsIcon = { icon: javascript, name: 'JavaScript' };
-export const firebaseIcon = { icon: firebase, name: 'Firebase' };
-export const javaIcon = { icon: java, name: 'Java' };
-export const pythonIcon = { icon: python, name: 'Python' };
-export const cssIcon = { icon: css, name: 'CSS' };
-export const htmlIcon = { icon: html, name: 'HTML' };
-export const adobeXdIcon = { icon: adobexd, name: 'Adobe XD' };
+export const reactIcon = { icon: react, name: 'React', width: '2em' };
+export const jsIcon = { icon: javascript, name: 'JavaScript', width: '1.9em' };
+export const firebaseIcon = { icon: firebase, name: 'Firebase', width: '2em' };
+export const javaIcon = { icon: java, name: 'Java', width: '2.2em' };
+export const pythonIcon = { icon: python, name: 'Python', width: '2.2em' };
+export const cssIcon = { icon: css, name: 'CSS', width: '2em' };
+export const htmlIcon = { icon: html, name: 'HTML', width: '2em' };
+export const adobeXdIcon = { icon: adobexd, name: 'Adobe XD', width: '1.9em' };
 
-export const javaFxIcon = { icon: javafx, name: 'JavaFX' };
-export const nodeJsIcon = { icon: nodejs, name: 'NodeJS' };
-export const cIcon = { icon: c, name: 'C' };
+export const javaFxIcon = { icon: javafx, name: 'JavaFX', width: '3em' };
+export const nodeJsIcon = { icon: nodejs, name: 'Node.js', width: '1.9em' };
+export const cIcon = { icon: c, name: 'C', width: '2em' };

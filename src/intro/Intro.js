@@ -1,7 +1,6 @@
 import React from 'react';
 import './styles.css';
 import LinkedIconList from '../component/linkedIconList/LinkedIconList';
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/all';
 
 const Intro = () => {
   const INTRO =
@@ -9,15 +8,6 @@ const Intro = () => {
   const NUS_LINK = 'http://nus.edu.sg/';
   const YEAR_OF_STUDY = 'I am currently a year 2 Computer Science undergraduate at ';
   const SCHOOL = 'National University of Singapore';
-
-  const links = [
-    {
-      icon: <FaLinkedin color={'#0e76a8'} size={'2em'} />,
-      link: 'https://www.linkedin.com/in/keanecjy/',
-    },
-    { icon: <FaGithub color={'#211F1F'} size={'2em'} />, link: 'https://github.com/keanecjy' },
-    { icon: <FaEnvelope color={'#ababab'} size={'2em'} />, link: 'mailto:keanec@hotmail.com' },
-  ];
 
   return (
     <div className="top">
@@ -29,7 +19,7 @@ const Intro = () => {
           {SCHOOL}
         </a>
       </p>
-      <LinkedIconList links={links} />
+      <LinkedIconList />
     </div>
   );
 };

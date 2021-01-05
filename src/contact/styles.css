@@ -1,3 +1,71 @@
 .contact {
-  margin: 100px 0;
+  margin: 100px 0 50px 0;
+}
+
+.form-container {
+  font-family: 'Open Sans Semibold', sans-serif;
+  font-size: 0.87em;
+  margin-left: 3px;
+  margin-top: 0.5em;
+  width: 85%;
+}
+
+.input-box {
+  border: 1px solid #919191;
+  border-radius: 20px;
+  box-shadow: 0 3px 1px 1px rgba(233, 198, 198, 0.2);
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 10px 0 10px 20px;
+  width: 100%;
+}
+
+::placeholder {
+  color: rgba(28, 28, 28, 0.45);
+}
+
+input:focus,
+textarea:focus {
+  border-color: white;
+  box-shadow: 0 0 5px 1px #82b9f1;
+  outline: none;
+  transition: 0.25s ease-in-out;
+}
+
+.message-box {
+  border: 1px solid #919191;
+  border-radius: 20px;
+  box-shadow: 0 3px 1px 1px rgba(233, 198, 198, 0.2);
+  color: #303030;
+  margin-top: 0.6em;
+  min-height: 10em;
+  padding: 10px 0 10px 20px;
+  resize: none;
+  width: 100%;
+}
+
+.submit-button {
+  background: linear-gradient(#8b7f7f, #464040);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  height: 3em;
+  margin: 4% 30% 0 30%;
+  width: 35%;
+  z-index: 100;
+}
+
+.submit-button:hover {
+  background: linear-gradient(#464040, #8b7f7f);
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+.end-content {
+  font-weight: 600;
+  margin-top: 3.6em;
 }

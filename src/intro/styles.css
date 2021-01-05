@@ -1,6 +1,6 @@
 .underline {
-  font-weight: 600;
   display: block;
+  font-weight: 600;
   text-decoration: underline;
 }
 
@@ -14,8 +14,8 @@
 }
 
 .top {
-  margin-top: 50px;
   font-family: 'Open Sans Semibold', sans-serif;
+  margin-top: 50px;
 }
 
 .school {

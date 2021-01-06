@@ -4,6 +4,21 @@
   padding: 8px 5vw 8px 5vw !important;
 }
 
+.hamburger {
+  border: 1px solid transparent !important;
+  font-size: 1.1rem !important;
+}
+
+.hamburger:focus {
+  outline: none !important;
+}
+
+.hamburger:hover {
+  border: 1px solid #868675 !important;
+  border-radius: 30px !important;
+  transition: 0.4s ease-in-out;
+}
+
 .nav-bar a {
   color: #252525e6 !important;
 }

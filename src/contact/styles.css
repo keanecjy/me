@@ -1,5 +1,5 @@
 .contact {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 .contact-desc {
@@ -74,7 +74,7 @@ textarea:focus {
 
 .end-content {
   font-weight: 600;
-  margin-top: 3.6em;
+  margin-top: 15vh;
 }
 
 @media screen and (min-width: 992px) {

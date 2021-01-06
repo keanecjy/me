@@ -1,5 +1,6 @@
 import React from 'react';
 import LinkedIconList from '../component/linkedIconList/LinkedIconList';
+import './styles.css';
 
 const End = () => {
   return (

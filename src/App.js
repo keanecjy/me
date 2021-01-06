@@ -13,10 +13,14 @@ function App() {
       <div className="main-app">
         <div className="intro-and-about">
           <Intro />
+          <div className="empty-space" id="about" />
           <About />
         </div>
+        <div className="empty-space" id="skills" />
         <Skills />
+        <div className="empty-space" id="projects" />
         <Projects />
+        <div className="empty-space" id="contact" />
         <Contact />
       </div>
     </div>

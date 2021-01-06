@@ -67,7 +67,7 @@ const Projects = () => {
   ];
 
   return (
-    <div id="projects" className="projects">
+    <div className="projects">
       <Header title={'Projects'} icon={<FaLaptopCode color={'#a47070'} size={'2em'} />} />
       {projects.map((proj) => (
         <SingleProject props={proj} key={proj.name} />

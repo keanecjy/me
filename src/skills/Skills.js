@@ -32,7 +32,7 @@ const Skills = () => {
   const skills2 = [javaFxIcon, nodeJsIcon, cIcon];
 
   return (
-    <div id="skills" className="skills">
+    <div className="skills">
       <Header title={'Skills'} icon={<GiSkills color={'#7a3535'} size={'2em'} />} />
       <div>
         <p>I am decent in</p>

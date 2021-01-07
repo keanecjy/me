@@ -47,10 +47,8 @@
   .single-project {
     display: flex;
     flex-direction: row-reverse;
-  }
-
-  .project-description {
-    padding-right: 100px;
+    justify-content: space-between;
+    gap: 100px;
   }
 
   .project-image {

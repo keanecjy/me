@@ -16,7 +16,7 @@ const SingleProject = ({ props }) => {
         onMouseEnter={() => setHoverImage(gif)}
         onMouseLeave={() => setHoverImage(img)}
       />
-      <div className="project-description">
+      <div>
         <h2>{name}</h2>
         <p>{description}</p>
         <div className="links">

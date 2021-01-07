@@ -5,6 +5,7 @@ import Projects from './projects/Projects';
 import Skills from './skills/Skills';
 import Contact from './contact/Contact';
 import Intro from './intro/Intro';
+import ScrollTopArrow from './component/scrolltoparrow/ScrollTopArrow';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <div className="empty-space" id="contact" />
         <Contact />
       </div>
+      <ScrollTopArrow />
     </div>
   );
 }

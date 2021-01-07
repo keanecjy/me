@@ -34,14 +34,10 @@ const Skills = () => {
   return (
     <div className="skills">
       <Header title={'Skills'} icon={<GiSkills color={'#7a3535'} size={'2em'} />} />
-      <div>
-        <p>I am decent in</p>
-        <IconList icons={skills} />
-      </div>
-      <div>
-        <p>I have dabbled with</p>
-        <IconList icons={skills2} />
-      </div>
+      <p>I am decent in</p>
+      <IconList icons={skills} />
+      <p>I have dabbled with</p>
+      <IconList icons={skills2} />
     </div>
   );
 };

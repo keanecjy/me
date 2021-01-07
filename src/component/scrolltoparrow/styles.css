@@ -1,0 +1,21 @@
+.arrow-up {
+  bottom: 25px;
+  cursor: pointer;
+  opacity: 0.2;
+  position: fixed;
+  right: 25px;
+  transition: opacity 0.4s;
+  z-index: 1000;
+}
+
+.arrow-up:hover {
+  opacity: 1;
+}
+
+/* Desktop monitors */
+@media only screen and (min-width: 1600px) {
+  .arrow-up {
+    bottom: 1.6vw;
+    right: 3vw;
+  }
+}

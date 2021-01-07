@@ -4,8 +4,8 @@
 
 .project-image {
   border-radius: 40px;
+  box-shadow: 0 0 5px 1px #7a7a7a;
   justify-self: center;
-  padding: 0 5px;
   width: 100%;
 }
 
@@ -27,11 +27,11 @@
   margin-bottom: 1em;
 }
 
-.single-project a::after {
+.links a::after {
   width: 100%;
 }
 
-.single-project a:hover::after {
+.links a:hover::after {
   background: transparent;
 }
 

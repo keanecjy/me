@@ -3,6 +3,10 @@
   font-weight: 600;
 }
 
+.underline::after {
+  width: 0;
+}
+
 .underline:hover::after {
   width: 100%;
 }

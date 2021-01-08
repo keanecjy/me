@@ -9,9 +9,9 @@ const Contact = () => {
   return (
     <div className="contact">
       <Header icon={<IoIosRocket color={'#983636'} size={'2em'} />} title="Contact me" />
-      <p className="contact-desc">
+      <h3 className="contact-desc">
         Interested in what you see? Fill in this form and I will get back to you asap! ✌
-      </p>
+      </h3>
       <EmailForm />
       <End />
     </div>

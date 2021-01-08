@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import './styles.css';
+import Toggle from '../darkMode/toggleButton';
 
-const NavigationMenu = () => {
+const NavigationMenu = ({theme, toggleTheme}) => {
   const [expanded, setExpanded] = useState(false);
 
   const collapseNavBar = () => {
@@ -37,6 +38,7 @@ const NavigationMenu = () => {
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
+      <Toggle theme={theme} toggleTheme={toggleTheme}/>
     </Navbar>
   );
 };

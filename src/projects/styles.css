@@ -28,7 +28,7 @@
 }
 
 .links a::after {
-  width: 100%;
+  width: 100% !important;
 }
 
 .links a:hover::after {

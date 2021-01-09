@@ -62,6 +62,10 @@ export const GlobalStyles = createGlobalStyle`
     width: 0;
   }
   
+  .app button:focus {
+    outline: none;
+  }
+  
   .main-app {
     align-items: center;
     justify-content: center;

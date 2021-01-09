@@ -54,10 +54,6 @@ textarea:focus {
   background: linear-gradient(#464040, #8b7f7f);
 }
 
-.submit-button:focus {
-  outline: none;
-}
-
 .end-content {
   font-weight: 600;
   margin-top: 15vh;

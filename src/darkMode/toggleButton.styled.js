@@ -2,8 +2,9 @@
 import styled from 'styled-components';
 
 const ToggleContainer = styled.button`
-  background: ${({ theme }) => theme.gradient};
-  border: 2px solid ${({ theme }) => theme.toggleBorder};
+  background: ${({ lightTheme }) =>
+    lightTheme ? 'linear-gradient(#39598A, #79D7ED)' : 'linear-gradient(#091236, #1E215D)'};
+  border: 2px solid ${({ lightTheme }) => (lightTheme ? '#428596' : '#6B8096')};
   border-radius: 30px;
   cursor: pointer;
   display: flex;
@@ -13,22 +14,22 @@ const ToggleContainer = styled.button`
   overflow: hidden;
   padding: 0.5rem;
   position: relative;
-  width: 8rem;
-  height: 4rem;
+  width: 6.6rem;
+  height: 3.3rem;
 
   svg {
     height: auto;
-    width: 2.5rem;
+    width: 2.1rem;
     transition: all 0.3s linear;
-    
+
     // sun icon
     &:first-child {
-      transform: ${({ lightTheme }) => lightTheme ? 'translateY(0)' : 'translateY(100px)'};
+      transform: ${({ lightTheme }) => (lightTheme ? 'translateY(0)' : 'translateY(100px)')};
     }
-    
+
     // moon icon
     &:nth-child(2) {
-      transform: ${({ lightTheme }) => lightTheme ? 'translateY(-100px)' : 'translateY(0)'};
+      transform: ${({ lightTheme }) => (lightTheme ? 'translateY(-100px)' : 'translateY(0)')};
     }
   }
 `;

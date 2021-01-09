@@ -19,7 +19,7 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    max-width: 100vw;
+    width: 100vw;
     transition: all 0.25s linear;
   }
   

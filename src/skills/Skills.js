@@ -12,7 +12,7 @@ import {
   adobeXdIcon,
   javaFxIcon,
   nodeJsIcon,
-  cIcon,
+  cIcon, socketIcon, figmaIcon, expressIcon, mongodbIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
 import { GiSkills } from 'react-icons/all';
@@ -28,11 +28,12 @@ const Skills = () => {
     cssIcon,
     htmlIcon,
     adobeXdIcon,
+    figmaIcon
   ];
 
   const { isLight } = useContext(StateContext);
 
-  const skills2 = [javaFxIcon, nodeJsIcon, cIcon];
+  const skills2 = [nodeJsIcon, expressIcon, socketIcon, mongodbIcon, javaFxIcon];
 
   return (
     <div className="skills">

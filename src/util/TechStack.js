@@ -9,7 +9,12 @@ import adobexd from '../images/adobexd.png';
 import javafx from '../images/javafx.png';
 import nodejs from '../images/nodejs-icon.svg';
 import c from '../images/C.svg';
+import express from '../images/express.png';
+import figma from '../images/figma.svg';
+import mongodb from '../images/mongoDb2.png';
+import socketIo from '../images/socketIo.svg';
 
+// Main tech stack
 export const reactIcon = { icon: react, name: 'React', width: '2em' };
 export const jsIcon = { icon: javascript, name: 'JavaScript', width: '1.9em' };
 export const firebaseIcon = { icon: firebase, name: 'Firebase', width: '2em' };
@@ -19,6 +24,11 @@ export const cssIcon = { icon: css, name: 'CSS', width: '2em' };
 export const htmlIcon = { icon: html, name: 'HTML', width: '2em' };
 export const adobeXdIcon = { icon: adobexd, name: 'Adobe XD', width: '1.9em' };
 
+// Other tech stack
 export const javaFxIcon = { icon: javafx, name: 'JavaFX', width: '3em' };
 export const nodeJsIcon = { icon: nodejs, name: 'Node.js', width: '1.9em' };
 export const cIcon = { icon: c, name: 'C', width: '2em' };
+export const expressIcon = { icon: express, name: 'Express.js', width: '2em' };
+export const figmaIcon = { icon: figma, name: 'Figma', width: '2em' };
+export const mongodbIcon = { icon: mongodb, name: 'mongoDB', width: '4.3em' };
+export const socketIcon = { icon: socketIo, name: 'socket.io', width: '2em' };

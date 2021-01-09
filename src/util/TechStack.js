@@ -27,7 +27,6 @@ export const adobeXdIcon = { icon: adobexd, name: 'Adobe XD', width: '1.9em' };
 // Other tech stack
 export const javaFxIcon = { icon: javafx, name: 'JavaFX', width: '3em' };
 export const nodeJsIcon = { icon: nodejs, name: 'Node.js', width: '1.9em' };
-export const cIcon = { icon: c, name: 'C', width: '2em' };
 export const expressIcon = { icon: express, name: 'Express.js', width: '2em' };
 export const figmaIcon = { icon: figma, name: 'Figma', width: '2em' };
 export const mongodbIcon = { icon: mongodb, name: 'mongoDB', width: '4.3em' };

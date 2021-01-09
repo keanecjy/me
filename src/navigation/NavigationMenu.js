@@ -12,7 +12,7 @@ const NavigationMenu = ({ theme, toggleTheme }) => {
   const collapseNavBar = () => setExpanded(false);
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{padding: 0}}>
       <Navbar
         expanded={expanded}
         sticky="top"

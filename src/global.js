@@ -42,7 +42,7 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   .app a {
-    color: inherit;
+    color: inherit !important;
     display: inline-block;
     text-decoration: none;
     width: fit-content;
@@ -70,6 +70,17 @@ export const GlobalStyles = createGlobalStyle`
 
   .intro-and-about {
     width: 90%;
+  }
+  
+  input,
+  textarea {
+    font-weight: 600;
+    background: ${({ theme }) => theme.body};
+    color: ${({ theme }) => theme.text};
+  }
+  
+  ::placeholder {
+    color: ${({ theme }) => theme.placeholder};
   }
   
   /* Medium devices (landscape tablets, 768px and up) */

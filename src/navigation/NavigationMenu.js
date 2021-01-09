@@ -3,8 +3,10 @@ import { Nav, Navbar } from 'react-bootstrap';
 import './styles.css';
 import Toggle from '../darkMode/toggleButton';
 
-const NavigationMenu = ({theme, toggleTheme}) => {
+const NavigationMenu = ({ theme, toggleTheme }) => {
   const [expanded, setExpanded] = useState(false);
+
+  const isLight = theme === 'light';
 
   const collapseNavBar = () => {
     setTimeout(() => {
@@ -13,7 +15,13 @@ const NavigationMenu = ({theme, toggleTheme}) => {
   };
 
   return (
-    <Navbar expanded={expanded} sticky="top" bg="light" expand="lg" className="nav-bar-menu">
+    <Navbar
+      expanded={expanded}
+      sticky="top"
+      bg={isLight ? 'light' : 'dark'}
+      expand="lg"
+      className="nav-bar-menu"
+    >
       <Navbar.Brand onClick={() => collapseNavBar()} href="#">
         Keane
       </Navbar.Brand>
@@ -38,7 +46,7 @@ const NavigationMenu = ({theme, toggleTheme}) => {
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
-      <Toggle theme={theme} toggleTheme={toggleTheme}/>
+      <Toggle theme={theme} toggleTheme={toggleTheme} />
     </Navbar>
   );
 };

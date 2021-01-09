@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './styles.css';
 import IconList from '../component/iconList/IconList';
 import {
@@ -16,6 +16,7 @@ import {
 } from '../util/TechStack';
 import Header from '../component/header/header';
 import { GiSkills } from 'react-icons/all';
+import { StateContext } from '../App';
 
 const Skills = () => {
   const skills = [
@@ -29,11 +30,16 @@ const Skills = () => {
     adobeXdIcon,
   ];
 
+  const { isLight } = useContext(StateContext);
+
   const skills2 = [javaFxIcon, nodeJsIcon, cIcon];
 
   return (
     <div className="skills">
-      <Header title={'Skills'} icon={<GiSkills color={'#7a3535'} size={'2em'} />} />
+      <Header
+        title={'Skills'}
+        icon={<GiSkills color={isLight ? '#7a3535' : '#ad8ade'} size={'2em'} />}
+      />
       <p>I am decent in</p>
       <IconList icons={skills} />
       <p>I have dabbled with</p>

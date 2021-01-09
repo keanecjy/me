@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import IconList from '../component/iconList/IconList';
 import './styles.css';
+import { StateContext } from '../App';
 
 const SingleProject = ({ props }) => {
   const { img, name, description, appLink, gif, codeLink, techStack, marginTop } = props;
-
+  const { isLight } = useContext(StateContext);
   const [image, setHoverImage] = useState(img);
 
   return (
@@ -18,7 +19,7 @@ const SingleProject = ({ props }) => {
       />
       <div>
         <h2>{name}</h2>
-        <p>{description}</p>
+        <p style={{ color: isLight ? '#707070' : 'rgba(250,250,250,0.9)' }}>{description}</p>
         <div className="links">
           <a href={appLink} className="app-link" target="_blank" rel="noopener noreferrer">
             View the application here

@@ -2,17 +2,14 @@ import React, { useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import './styles.css';
 import Toggle from '../darkMode/toggleButton';
+import { AiOutlineMenu } from 'react-icons/all';
 
 const NavigationMenu = ({ theme, toggleTheme }) => {
   const [expanded, setExpanded] = useState(false);
 
   const isLight = theme === 'light';
 
-  const collapseNavBar = () => {
-    setTimeout(() => {
-      setExpanded(false);
-    }, 150);
-  };
+  const collapseNavBar = () => setExpanded(false);
 
   return (
     <Navbar
@@ -25,7 +22,7 @@ const NavigationMenu = ({ theme, toggleTheme }) => {
       <Navbar.Brand onClick={() => collapseNavBar()} href="#">
         Keane
       </Navbar.Brand>
-      <Navbar.Toggle
+      <AiOutlineMenu
         className="hamburger"
         onClick={() => setExpanded(!expanded)}
         aria-controls="responsive-navbar-nav"

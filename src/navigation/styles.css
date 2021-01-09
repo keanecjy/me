@@ -5,18 +5,21 @@
 }
 
 .hamburger {
-  border: 1px solid transparent !important;
-  font-size: 1.1rem !important;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  padding: 5px;
+  width: 1.9em;
+  height: auto;
 }
 
 .hamburger:focus {
-  outline: none !important;
+  outline: none;
 }
 
 .hamburger:hover {
-  border: 1px solid #868675 !important;
-  border-radius: 30px !important;
-  transition: 0.4s ease-in-out;
+  border: 2px solid #bcbcaa;
+  border-radius: 30px;
+  transition: 0.25s ease-in-out;
 }
 
 .nav-bar a:hover::after {
@@ -43,6 +46,10 @@
 
   .nav-bar * {
     margin-left: 30px;
+  }
+
+  .hamburger {
+    display: none;
   }
 }
 

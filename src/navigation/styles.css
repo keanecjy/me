@@ -2,8 +2,6 @@
   box-shadow: 0 1px 2px 1px rgba(155, 139, 139, 0.3);
   font-weight: bold;
   padding: 8px 5vw 8px 5vw !important;
-  display: flex !important;
-  width: 100vw !important;
 }
 
 .hamburger {

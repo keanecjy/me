@@ -12,39 +12,41 @@ const NavigationMenu = ({ theme, toggleTheme }) => {
   const collapseNavBar = () => setExpanded(false);
 
   return (
-    <Navbar
-      expanded={expanded}
-      sticky="top"
-      bg={isLight ? 'light' : 'dark'}
-      expand="lg"
-      className="nav-bar-menu"
-    >
-      <Navbar.Brand onClick={() => collapseNavBar()} href="#">
-        Keane
-      </Navbar.Brand>
-      <AiOutlineMenu
-        className="hamburger"
-        onClick={() => setExpanded(!expanded)}
-        aria-controls="responsive-navbar-nav"
-      />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="nav-bar">
-          <Nav.Link onSelect={() => collapseNavBar()} href="#about">
-            About
-          </Nav.Link>
-          <Nav.Link onSelect={() => collapseNavBar()} href="#skills">
-            Skills
-          </Nav.Link>
-          <Nav.Link onSelect={() => collapseNavBar()} href="#projects">
-            Projects
-          </Nav.Link>
-          <Nav.Link onSelect={() => collapseNavBar()} href="#contact">
-            Contact me
-          </Nav.Link>
-        </Nav>
-        <Toggle theme={theme} toggleTheme={toggleTheme} />
-      </Navbar.Collapse>
-    </Navbar>
+    <div className="container-fluid">
+      <Navbar
+        expanded={expanded}
+        sticky="top"
+        bg={isLight ? 'light' : 'dark'}
+        expand="lg"
+        className="nav-bar-menu"
+      >
+        <Navbar.Brand onClick={() => collapseNavBar()} href="#">
+          Keane
+        </Navbar.Brand>
+        <AiOutlineMenu
+          className="hamburger"
+          onClick={() => setExpanded(!expanded)}
+          aria-controls="responsive-navbar-nav"
+        />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="nav-bar">
+            <Nav.Link onSelect={() => collapseNavBar()} href="#about">
+              About
+            </Nav.Link>
+            <Nav.Link onSelect={() => collapseNavBar()} href="#skills">
+              Skills
+            </Nav.Link>
+            <Nav.Link onSelect={() => collapseNavBar()} href="#projects">
+              Projects
+            </Nav.Link>
+            <Nav.Link onSelect={() => collapseNavBar()} href="#contact">
+              Contact me
+            </Nav.Link>
+          </Nav>
+          <Toggle theme={theme} toggleTheme={toggleTheme} />
+        </Navbar.Collapse>
+      </Navbar>
+    </div>
   );
 };
 

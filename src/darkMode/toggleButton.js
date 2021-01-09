@@ -7,7 +7,12 @@ import './styles.css';
 const Toggle = ({ theme, toggleTheme }) => {
   const isLight = theme === 'light';
   return (
-    <ToggleContainer className="toggle-button" lightTheme={isLight} theme={theme} onClick={toggleTheme}>
+    <ToggleContainer
+      className="toggle-button"
+      lightTheme={isLight}
+      theme={theme}
+      onClick={toggleTheme}
+    >
       <SunIcon />
       <MoonIcon />
     </ToggleContainer>

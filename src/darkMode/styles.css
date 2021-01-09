@@ -1,0 +1,20 @@
+.toggle-button {
+  width: 5.5rem;
+  height: 2.8rem;
+}
+
+.toggle-button svg {
+  width: 1.7rem;
+}
+
+/* Large devices (laptops/desktops, 992px and up) - point of expansion */
+@media only screen and (min-width: 992px) {
+  .toggle-button {
+    width: 6rem;
+    height: 3rem;
+  }
+
+  .toggle-button svg {
+    width: 1.9rem;
+  }
+}

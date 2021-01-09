@@ -4,12 +4,16 @@ import SingleProject from './SingleProject';
 import {
   adobeXdIcon,
   cssIcon,
+  expressIcon,
+  figmaIcon,
   firebaseIcon,
   htmlIcon,
   javaFxIcon,
   javaIcon,
   jsIcon,
-  reactIcon,
+  mongodbIcon,
+  nodeJsIcon,
+  reactIcon, socketIcon,
 } from '../util/TechStack';
 import ModuleFuture from '../images/ModuleFuture.png';
 import ModuleFutureGif from '../images/modulefuture.gif';
@@ -41,14 +45,37 @@ const Projects = () => {
       gif: SortAlgoGif,
       name: 'SortAlgo',
       description:
-        'An interactive sorting visualizer web application created for students to learn and ' +
-        'understand sorting algorithms better. This project was inspired from the lack of ' +
-        'visual representation when students learn sorting algorithms. Our application ' +
+        'SortAlgo is an interactive sorting visualizer web application created for students ' +
+        'to learn and understand sorting algorithms better. This project was inspired from the ' +
+        'lack of visual representation when students learn sorting algorithms. The application ' +
         'provides 10 sorting algorithms, each with its own unique animation and ' +
         'step-by-step explanation.',
       appLink: 'https://algosort.netlify.app/',
       codeLink: 'https://github.com/keanecjy/sort-algo',
       techStack: [reactIcon, jsIcon, cssIcon, htmlIcon, adobeXdIcon],
+      marginTop: 90,
+    },
+    {
+      img: InternHunter,
+      gif: InternHunterGif,
+      name: 'HelloWorld',
+      description:
+        'HelloWorld is a real-time chat based application built for connecting users around the ' +
+        'globe. This project was inspired due to the frustration and ongoing boredom people' +
+        'face during the COVID-19 pandemic. The application comes with an interactive map ' +
+        'display for users to view and connect with users via a real-time chat interface.',
+      appLink: 'https://hello-world-hacknroll.netlify.app/',
+      codeLink: 'https://github.com/keanecjy/HelloWorld',
+      techStack: [
+        reactIcon,
+        jsIcon,
+        nodeJsIcon,
+        expressIcon,
+        socketIcon,
+        mongodbIcon,
+        cssIcon,
+        figmaIcon,
+      ],
       marginTop: 90,
     },
     {

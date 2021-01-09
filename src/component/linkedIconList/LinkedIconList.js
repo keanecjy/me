@@ -22,7 +22,7 @@ const LinkedIconList = () => {
     },
     {
       icon: <FaEnvelope color={colorArr[2]} size={'2em'} />,
-      link: 'mailto:keanec@outlook.com',
+      link: 'mailto:keanec9@outlook.com',
       name: 'email',
     },
   ];

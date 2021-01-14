@@ -29,7 +29,6 @@ import Header from '../component/header/header';
 const Projects = () => {
   const projects = [
     {
-      img: ModuleFuture,
       gif: ModuleFutureGif,
       name: 'ModuleFuture',
       description:
@@ -37,13 +36,12 @@ const Projects = () => {
         'and track their modules. It helps students manage and plan their modules in advance, ' +
         'and provides recommendations for specialization paths based on in-depth statistics ' +
         'from the modules taken by users.',
-      appLink: 'https://play.google.com/store/apps/details?id=com.modulefuture2019.ModuleFuture',
+      appLink: 'https://github.com/keanecjy/ModuleFuture#features-preview',
       codeLink: 'https://github.com/keanecjy/ModuleFuture',
       techStack: [reactIcon, jsIcon, firebaseIcon, adobeXdIcon],
       marginTop: 40,
     },
     {
-      img: SortAlgo,
       gif: SortAlgoGif,
       name: 'SortAlgo',
       description:
@@ -58,7 +56,6 @@ const Projects = () => {
       marginTop: 90,
     },
     {
-      img: HelloWorld,
       gif: HelloWorldGif,
       name: 'HelloWorld',
       description:
@@ -66,7 +63,7 @@ const Projects = () => {
         'globe. This project was inspired due to the frustration and ongoing boredom people' +
         'face during the COVID-19 pandemic. The application comes with an interactive map ' +
         'display for users to view and connect with users via a real-time chat interface.',
-      appLink: 'https://hello-world-hacknroll.netlify.app/',
+      appLink: 'https://helloworld-hnr.netlify.app/',
       codeLink: 'https://github.com/keanecjy/HelloWorld',
       techStack: [
         reactIcon,
@@ -81,14 +78,13 @@ const Projects = () => {
       marginTop: 90,
     },
     {
-      img: InternHunter,
       gif: InternHunterGif,
       name: 'InternHunter',
       description:
         'InternHunter is an internship management application built for students to get the ' +
         'internship they desire. It is built and optimized for fast typists to record and ' +
         'track their internship applications and resume details.',
-      appLink: 'https://github.com/AY2021S1-CS2103T-T15-4/tp/releases/tag/v1.4',
+      appLink: 'https://github.com/keanecjy/tp#internhunter',
       codeLink: 'https://github.com/keanecjy/tp',
       techStack: [javaIcon, javaFxIcon, cssIcon, adobeXdIcon],
       marginTop: 90,

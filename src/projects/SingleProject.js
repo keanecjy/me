@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import IconList from '../component/iconList/IconList';
 import './styles.css';
 import { StateContext } from '../App';
@@ -6,9 +6,8 @@ import 'intersection-observer';
 import IsVisible from 'react-is-visible';
 
 const SingleProject = ({ props }) => {
-  const { img, name, description, appLink, gif, codeLink, techStack, marginTop } = props;
+  const { name, description, appLink, gif, codeLink, techStack, marginTop } = props;
   const { isLight } = useContext(StateContext);
-  const [image, setHoverImage] = useState(img);
 
   const getImageTransition = (isVisible) => ({
     transform: isVisible ? `translateX(0px)` : `translateX(300px)`,
@@ -25,11 +24,9 @@ const SingleProject = ({ props }) => {
       {(isVisible) => (
         <div className="single-project" style={{ marginTop: marginTop }}>
           <img
-            src={image}
+            src={gif}
             alt={name}
             className="project-image"
-            onMouseEnter={() => setHoverImage(gif)}
-            onMouseLeave={() => setHoverImage(img)}
             style={getImageTransition(isVisible)}
           />
           <div style={getDescriptionTransition(isVisible)}>

@@ -4,32 +4,25 @@ import './styles.css';
 import { StateContext } from '../App';
 import 'intersection-observer';
 import IsVisible from 'react-is-visible';
+import { transitionHorizontal } from '../util/TransitionHorizontal';
 
 const SingleProject = ({ props }) => {
   const { name, description, appLink, gif, codeLink, techStack, marginTop } = props;
   const { isLight } = useContext(StateContext);
 
-  const getImageTransition = (isVisible) => ({
-    transform: isVisible ? `translateX(0px)` : `translateX(300px)`,
-    transition: `all 1s ease-in-out`,
-  });
-
-  const getDescriptionTransition = (isVisible) => ({
-    transform: isVisible ? `translateX(0px)` : `translateX(-300px)`,
-    transition: `all 1s ease-in-out`,
-  });
-
   return (
     <IsVisible once>
       {(isVisible) => (
         <div className="single-project" style={{ marginTop: marginTop }}>
-          <img
-            src={gif}
-            alt={name}
-            className="project-image"
-            style={getImageTransition(isVisible)}
-          />
-          <div style={getDescriptionTransition(isVisible)}>
+          <div className="project-image">
+            <img
+              src={gif}
+              alt={name}
+              className="image-style"
+              style={transitionHorizontal(isVisible, 300)}
+            />
+          </div>
+          <div style={transitionHorizontal(isVisible, -300)} className="width-100">
             <h2>{name}</h2>
             <p style={{ color: isLight ? '#707070' : 'rgba(250,250,250,0.9)' }}>{description}</p>
             <div className="links">

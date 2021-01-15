@@ -1,5 +1,19 @@
 .contact {
   padding-bottom: 60px;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1.25s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .form-container {
@@ -40,7 +54,7 @@ textarea:focus {
 }
 
 .submit-button {
-  background: linear-gradient(#8b7f7f, #464040);
+  background: linear-gradient(#3360d5, #82b9f1);
   border: none;
   border-radius: 15px;
   color: white;
@@ -51,7 +65,7 @@ textarea:focus {
 }
 
 .submit-button:hover {
-  background: linear-gradient(#464040, #8b7f7f);
+  background: linear-gradient(#82b9f1, #3360d5);
 }
 
 .end-content {

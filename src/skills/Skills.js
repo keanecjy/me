@@ -20,6 +20,8 @@ import {
 import Header from '../component/header/header';
 import { GiSkills } from 'react-icons/all';
 import { StateContext } from '../App';
+import IsVisible from 'react-is-visible';
+import { transitionHorizontal } from '../util/TransitionHorizontal';
 
 const Skills = () => {
   const skills = [
@@ -39,16 +41,20 @@ const Skills = () => {
   const skills2 = [nodeJsIcon, expressIcon, socketIcon, mongodbIcon, javaFxIcon];
 
   return (
-    <div className="skills">
-      <Header
-        title={'Skills'}
-        icon={<GiSkills color={isLight ? '#7a3535' : '#ad8ade'} size={'2em'} />}
-      />
-      <p>I am decent in</p>
-      <IconList icons={skills} />
-      <p>I have dabbled with</p>
-      <IconList icons={skills2} />
-    </div>
+    <IsVisible once>
+      {(isVisible) => (
+        <div className="skills" style={transitionHorizontal(isVisible, -300)}>
+          <Header
+            title={'Skills'}
+            icon={<GiSkills color={isLight ? '#7a3535' : '#ad8ade'} size={'2em'} />}
+          />
+          <p>I am decent in</p>
+          <IconList icons={skills} />
+          <p>I have dabbled with</p>
+          <IconList icons={skills2} />
+        </div>
+      )}
+    </IsVisible>
   );
 };
 

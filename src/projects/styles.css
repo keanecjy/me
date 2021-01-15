@@ -2,11 +2,27 @@
   margin-bottom: -130px;
 }
 
+.width-100 {
+  width: 100%;
+}
+
 .project-image {
-  border-radius: 40px;
-  box-shadow: 0 0 5px 1px #7a7a7a;
+  align-self: center;
   justify-self: center;
   width: 100%;
+  transition: transform linear 0.25s;
+}
+
+.image-style {
+  align-self: center;
+  width: 100%;
+  height: auto;
+  border-radius: 40px;
+  box-shadow: 0 0 5px 1px #7a7a7a;
+}
+
+.project-image:hover {
+  transform: scale(1.05);
 }
 
 .links {
@@ -49,10 +65,7 @@
     gap: 100px;
     justify-content: space-between;
   }
-
-  .project-image {
-    align-self: center;
-    height: 70%;
-    width: 50%;
+  .project-image:hover {
+    transform: scale(1.1);
   }
 }

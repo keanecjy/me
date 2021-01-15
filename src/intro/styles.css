@@ -25,10 +25,23 @@
   font-family: 'Open Sans', sans-serif;
   margin-bottom: -130px;
   margin-top: 50px;
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1.25s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .school {
-  font-family: 'Open Sans', sans-serif;
   margin-bottom: 40px;
 }
 

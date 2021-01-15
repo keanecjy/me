@@ -18,8 +18,8 @@ const About = () => {
             icon={<GiOpenBook color={isLight ? '#7a3535' : '#ad8ade'} size={'2em'} />}
           />
           <p>
-            I enjoy learning and exploring concepts in the vast field of Computer Science. More
-            recently, I have been learning Front-end development and Artificial Intelligence.
+            I enjoy learning and exploring new things in the field of software development. More recently, I
+            have been learning database and operating systems to supplement my knowledge in front end development.
           </p>
         </div>
       )}

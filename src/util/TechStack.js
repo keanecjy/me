@@ -8,7 +8,6 @@ import html from '../images/html.png';
 import adobexd from '../images/adobexd.png';
 import javafx from '../images/javafx.png';
 import nodejs from '../images/nodejs-icon.svg';
-import c from '../images/C.svg';
 import express from '../images/express.png';
 import figma from '../images/figma.svg';
 import mongodb from '../images/mongoDb2.png';

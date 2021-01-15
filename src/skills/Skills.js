@@ -2,20 +2,20 @@ import React, { useContext } from 'react';
 import './styles.css';
 import IconList from '../component/iconList/IconList';
 import {
-  reactIcon,
-  jsIcon,
-  firebaseIcon,
-  javaIcon,
-  pythonIcon,
-  cssIcon,
-  htmlIcon,
   adobeXdIcon,
-  javaFxIcon,
-  nodeJsIcon,
-  socketIcon,
-  figmaIcon,
+  cssIcon,
   expressIcon,
+  figmaIcon,
+  firebaseIcon,
+  htmlIcon,
+  javaFxIcon,
+  javaIcon,
+  jsIcon,
   mongodbIcon,
+  nodeJsIcon,
+  pythonIcon,
+  reactIcon,
+  socketIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
 import { GiSkills } from 'react-icons/all';

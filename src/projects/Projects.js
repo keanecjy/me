@@ -16,13 +16,9 @@ import {
   reactIcon,
   socketIcon,
 } from '../util/TechStack';
-import ModuleFuture from '../images/ModuleFuture.png';
 import ModuleFutureGif from '../images/modulefuture.gif';
-import SortAlgo from '../images/sort-algo.png';
 import SortAlgoGif from '../images/sort-algo.gif';
-import InternHunter from '../images/internhunter.png';
 import InternHunterGif from '../images/internhunter.gif';
-import HelloWorld from '../images/helloworld.png';
 import HelloWorldGif from '../images/helloworld.gif';
 import { FaLaptopCode } from 'react-icons/all';
 import Header from '../component/header/header';

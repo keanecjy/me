@@ -17,11 +17,12 @@
 
 .intro {
   font-size: 1.4em;
+  font-weight: 700;
   margin-bottom: 50px;
 }
 
 .top {
-  font-family: 'Open Sans Semibold', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: -130px;
   margin-top: 50px;
 }

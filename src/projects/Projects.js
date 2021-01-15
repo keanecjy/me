@@ -13,7 +13,8 @@ import {
   jsIcon,
   mongodbIcon,
   nodeJsIcon,
-  reactIcon, socketIcon,
+  reactIcon,
+  socketIcon,
 } from '../util/TechStack';
 import ModuleFuture from '../images/ModuleFuture.png';
 import ModuleFutureGif from '../images/modulefuture.gif';

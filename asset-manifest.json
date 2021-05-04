@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/me/static/css/main.6638f8b9.chunk.css",
-    "main.js": "/me/static/js/main.0786a8de.chunk.js",
-    "main.js.map": "/me/static/js/main.0786a8de.chunk.js.map",
+    "main.js": "/me/static/js/main.2d298b24.chunk.js",
+    "main.js.map": "/me/static/js/main.2d298b24.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.16923535.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.16923535.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/me/static/css/2.20aa2d7b.chunk.css",
@@ -15,6 +15,7 @@
     "static/css/main.6638f8b9.chunk.css.map": "/me/static/css/main.6638f8b9.chunk.css.map",
     "static/js/2.e014d396.chunk.js.LICENSE.txt": "/me/static/js/2.e014d396.chunk.js.LICENSE.txt",
     "static/media/adobexd.a5b3c95b.png": "/me/static/media/adobexd.a5b3c95b.png",
+    "static/media/bootstrap.f132cb79.png": "/me/static/media/bootstrap.f132cb79.png",
     "static/media/css.67e32524.png": "/me/static/media/css.67e32524.png",
     "static/media/express.d61ef3d5.png": "/me/static/media/express.d61ef3d5.png",
     "static/media/figma.bc9b8286.svg": "/me/static/media/figma.bc9b8286.svg",
@@ -29,10 +30,13 @@
     "static/media/mongoDb2.5cf4072f.png": "/me/static/media/mongoDb2.5cf4072f.png",
     "static/media/moon.bdf5aca7.svg": "/me/static/media/moon.bdf5aca7.svg",
     "static/media/nodejs-icon.e0636b26.svg": "/me/static/media/nodejs-icon.e0636b26.svg",
+    "static/media/postgreSQL.083ac27e.png": "/me/static/media/postgreSQL.083ac27e.png",
     "static/media/python.a9a5bd46.png": "/me/static/media/python.a9a5bd46.png",
     "static/media/react.b9a14f34.png": "/me/static/media/react.b9a14f34.png",
+    "static/media/redux.170eb0c4.png": "/me/static/media/redux.170eb0c4.png",
     "static/media/socketIo.c2e7106f.svg": "/me/static/media/socketIo.c2e7106f.svg",
     "static/media/sort-algo.0a0f39b2.gif": "/me/static/media/sort-algo.0a0f39b2.gif",
+    "static/media/spring.3b9dd2cf.png": "/me/static/media/spring.3b9dd2cf.png",
     "static/media/sun.68763c5a.svg": "/me/static/media/sun.68763c5a.svg"
   },
   "entrypoints": [
@@ -40,6 +44,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.e014d396.chunk.js",
     "static/css/main.6638f8b9.chunk.css",
-    "static/js/main.0786a8de.chunk.js"
+    "static/js/main.2d298b24.chunk.js"
   ]
 }

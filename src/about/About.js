@@ -19,7 +19,7 @@ const About = () => {
           />
           <p>
             I enjoy learning and exploring new things in the field of software development. More recently, I
-            have been learning database and operating systems to supplement my knowledge in front end development.
+            have been learning backend development and databases.
           </p>
         </div>
       )}

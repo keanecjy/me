@@ -3,19 +3,20 @@ import './styles.css';
 import IconList from '../component/iconList/IconList';
 import {
   adobeXdIcon,
-  cssIcon,
+  bootstrapIcon,
   expressIcon,
-  figmaIcon,
   firebaseIcon,
-  htmlIcon,
   javaFxIcon,
   javaIcon,
   jsIcon,
   mongodbIcon,
   nodeJsIcon,
+  postgreSQLIcon,
   pythonIcon,
   reactIcon,
+  reduxIcon,
   socketIcon,
+  springIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
 import { GiSkills } from 'react-icons/all';
@@ -25,20 +26,27 @@ import { transitionHorizontal } from '../util/TransitionHorizontal';
 
 const Skills = () => {
   const skills = [
-    reactIcon,
-    jsIcon,
-    firebaseIcon,
     javaIcon,
-    pythonIcon,
-    cssIcon,
-    htmlIcon,
-    adobeXdIcon,
-    figmaIcon,
+    springIcon,
+    reactIcon,
+    reduxIcon,
+    jsIcon,
+    nodeJsIcon,
+    expressIcon,
+    postgreSQLIcon,
   ];
 
   const { isLight } = useContext(StateContext);
 
-  const skills2 = [nodeJsIcon, expressIcon, socketIcon, mongodbIcon, javaFxIcon];
+  const skills2 = [
+    javaFxIcon,
+    mongodbIcon,
+    socketIcon,
+    bootstrapIcon,
+    pythonIcon,
+    firebaseIcon,
+    adobeXdIcon,
+  ];
 
   return (
     <IsVisible once>

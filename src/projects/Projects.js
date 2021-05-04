@@ -3,9 +3,9 @@ import './styles.css';
 import SingleProject from './SingleProject';
 import {
   adobeXdIcon,
+  bootstrapIcon,
   cssIcon,
   expressIcon,
-  figmaIcon,
   firebaseIcon,
   htmlIcon,
   javaFxIcon,
@@ -14,6 +14,7 @@ import {
   mongodbIcon,
   nodeJsIcon,
   reactIcon,
+  reduxIcon,
   socketIcon,
 } from '../util/TechStack';
 import ModuleFutureGif from '../images/modulefuture.gif';
@@ -26,16 +27,25 @@ import Header from '../component/header/header';
 const Projects = () => {
   const projects = [
     {
-      gif: ModuleFutureGif,
-      name: 'ModuleFuture',
+      gif: HelloWorldGif,
+      name: 'HelloWorld',
       description:
-        'ModuleFuture is a module planning mobile application designed for NUS students to plan ' +
-        'and track their modules. It helps students manage and plan their modules in advance, ' +
-        'and provides recommendations for specialization paths based on in-depth statistics ' +
-        'from the modules taken by users.',
-      appLink: 'https://github.com/keanecjy/ModuleFuture#features-preview',
-      codeLink: 'https://github.com/keanecjy/ModuleFuture',
-      techStack: [reactIcon, jsIcon, firebaseIcon, adobeXdIcon],
+        'HelloWorld is a real-time chat based application built for connecting users around the ' +
+        'globe. This project was inspired due to the frustration and ongoing boredom people' +
+        'face during the COVID-19 pandemic. The application comes with an interactive map ' +
+        'display for users to view and connect with users via a real-time chat interface.',
+      appLink: 'https://helloworld-hnr.netlify.app/',
+      codeLink: 'https://github.com/keanecjy/HelloWorld',
+      techStack: [
+        reactIcon,
+        reduxIcon,
+        jsIcon,
+        nodeJsIcon,
+        expressIcon,
+        socketIcon,
+        mongodbIcon,
+        bootstrapIcon,
+      ],
       marginTop: 40,
     },
     {
@@ -49,29 +59,29 @@ const Projects = () => {
         'step-by-step explanation.',
       appLink: 'https://algosort.netlify.app/',
       codeLink: 'https://github.com/keanecjy/sort-algo',
-      techStack: [reactIcon, jsIcon, cssIcon, htmlIcon, adobeXdIcon],
+      techStack: [
+        reactIcon,
+        reduxIcon,
+        nodeJsIcon,
+        jsIcon,
+        cssIcon,
+        htmlIcon,
+        bootstrapIcon,
+        adobeXdIcon,
+      ],
       marginTop: 90,
     },
     {
-      gif: HelloWorldGif,
-      name: 'HelloWorld',
+      gif: ModuleFutureGif,
+      name: 'ModuleFuture',
       description:
-        'HelloWorld is a real-time chat based application built for connecting users around the ' +
-        'globe. This project was inspired due to the frustration and ongoing boredom people' +
-        'face during the COVID-19 pandemic. The application comes with an interactive map ' +
-        'display for users to view and connect with users via a real-time chat interface.',
-      appLink: 'https://helloworld-hnr.netlify.app/',
-      codeLink: 'https://github.com/keanecjy/HelloWorld',
-      techStack: [
-        reactIcon,
-        jsIcon,
-        nodeJsIcon,
-        expressIcon,
-        socketIcon,
-        mongodbIcon,
-        cssIcon,
-        figmaIcon,
-      ],
+        'ModuleFuture is a module planning mobile application designed for NUS students to plan ' +
+        'and track their modules. It helps students manage and plan their modules in advance, ' +
+        'and provides recommendations for specialization paths based on in-depth statistics ' +
+        'from the modules taken by users.',
+      appLink: 'https://github.com/keanecjy/ModuleFuture#features-preview',
+      codeLink: 'https://github.com/keanecjy/ModuleFuture',
+      techStack: [reactIcon, jsIcon, cssIcon, htmlIcon, nodeJsIcon, firebaseIcon, adobeXdIcon],
       marginTop: 90,
     },
     {

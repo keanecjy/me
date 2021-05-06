@@ -3,7 +3,6 @@ import './styles.css';
 import IconList from '../component/iconList/IconList';
 import {
   adobeXdIcon,
-  bootstrapIcon,
   expressIcon,
   firebaseIcon,
   javaFxIcon,
@@ -32,8 +31,8 @@ const Skills = () => {
     reduxIcon,
     jsIcon,
     nodeJsIcon,
-    expressIcon,
     postgreSQLIcon,
+    expressIcon,
   ];
 
   const { isLight } = useContext(StateContext);
@@ -42,7 +41,6 @@ const Skills = () => {
     javaFxIcon,
     mongodbIcon,
     socketIcon,
-    bootstrapIcon,
     pythonIcon,
     firebaseIcon,
     adobeXdIcon,

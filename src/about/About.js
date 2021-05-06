@@ -18,8 +18,8 @@ const About = () => {
             icon={<GiOpenBook color={isLight ? '#7a3535' : '#ad8ade'} size={'2em'} />}
           />
           <p>
-            I enjoy learning and exploring new things in the field of software development. More recently, I
-            have been learning backend development and databases.
+            I enjoy learning and exploring new things in the field of software development. More
+            recently, I have been learning backend development and databases.
           </p>
         </div>
       )}

@@ -3,7 +3,6 @@ import './styles.css';
 import SingleProject from './SingleProject';
 import {
   adobeXdIcon,
-  bootstrapIcon,
   cssIcon,
   expressIcon,
   firebaseIcon,
@@ -36,15 +35,7 @@ const Projects = () => {
         'display for users to view and connect with users via a real-time chat interface.',
       appLink: 'https://helloworld-hnr.netlify.app/',
       codeLink: 'https://github.com/keanecjy/HelloWorld',
-      techStack: [
-        reactIcon,
-        reduxIcon,
-        jsIcon,
-        nodeJsIcon,
-        expressIcon,
-        socketIcon,
-        mongodbIcon,
-      ],
+      techStack: [reactIcon, reduxIcon, jsIcon, nodeJsIcon, expressIcon, socketIcon, mongodbIcon],
       marginTop: 40,
     },
     {
@@ -58,15 +49,7 @@ const Projects = () => {
         'step-by-step explanation.',
       appLink: 'https://algosort.netlify.app/',
       codeLink: 'https://github.com/keanecjy/sort-algo',
-      techStack: [
-        reactIcon,
-        reduxIcon,
-        nodeJsIcon,
-        jsIcon,
-        cssIcon,
-        htmlIcon,
-        adobeXdIcon,
-      ],
+      techStack: [reactIcon, reduxIcon, nodeJsIcon, jsIcon, cssIcon, htmlIcon, adobeXdIcon],
       marginTop: 90,
     },
     {

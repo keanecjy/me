@@ -37,14 +37,7 @@ const Skills = () => {
 
   const { isLight } = useContext(StateContext);
 
-  const skills2 = [
-    javaFxIcon,
-    mongodbIcon,
-    socketIcon,
-    pythonIcon,
-    firebaseIcon,
-    adobeXdIcon,
-  ];
+  const skills2 = [javaFxIcon, mongodbIcon, socketIcon, pythonIcon, firebaseIcon, adobeXdIcon];
 
   return (
     <IsVisible once>

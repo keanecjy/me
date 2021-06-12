@@ -11,6 +11,7 @@ import { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './theme';
 import { GlobalStyles } from './global';
 import { useDarkMode } from './useDarkMode';
+import Experience from './experience/Experience';
 
 export const StateContext = React.createContext({});
 
@@ -41,6 +42,8 @@ function App() {
             </div>
             <div className="empty-space" id="skills" />
             <Skills />
+            <div className="empty-space" id="skills" />
+            <Experience />
             <div className="empty-space" id="projects" />
             <Projects />
             <div className="empty-space" id="contact" />

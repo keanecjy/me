@@ -18,6 +18,10 @@ import redux from '../images/skills/redux.svg';
 import grpc from '../images/skills/grpc.svg';
 import docker from '../images/skills/docker.svg';
 import kafka from '../images/skills/kafka.svg';
+import git from '../images/skills/git.svg';
+import github from '../images/skills/github.svg';
+import gradle from '../images/skills/gradle.svg';
+import groovy from '../images/skills/groovy.svg';
 
 // Main tech stack
 export const javaIcon = { icon: java, name: 'Java' };
@@ -42,3 +46,6 @@ export const javaFxIcon = { icon: javafx, name: 'JavaFX' };
 export const figmaIcon = { icon: figma, name: 'Figma' };
 export const mongodbIcon = { icon: mongodb, name: 'MongoDB' };
 export const socketIcon = { icon: socketIo, name: 'socket.io' };
+export const gitIcon = { icon: git, name: 'Git' };
+export const githubIcon = { icon: github, name: 'GitHub' };
+export const gradleIcon = { icon: gradle, name: 'Gradle' };

@@ -1,16 +1,3 @@
-.underline {
-  display: block;
-  font-weight: 600;
-}
-
-.underline::after {
-  width: 0;
-}
-
-.underline:hover::after {
-  width: 100%;
-}
-
 .wave-icon {
   font-size: 1.7em;
 }

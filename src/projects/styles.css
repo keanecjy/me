@@ -34,20 +34,16 @@
   margin-bottom: 6px;
 }
 
-.code-link {
-  margin-bottom: 26px;
+.app-link::after {
+  width: 100% !important;
+}
+
+.app-link:hover::after {
+  background: transparent;
 }
 
 .single-project p {
   margin-bottom: 1em;
-}
-
-.links a::after {
-  width: 100% !important;
-}
-
-.links a:hover::after {
-  background: transparent;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

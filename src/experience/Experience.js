@@ -46,7 +46,7 @@ const Experience = () => {
         'Leveraged knowledge in Software Design Patterns and Principles, Unit and Integration testing and Jackson JSON',
       ],
       techStack: [javaIcon, javaFxIcon, gradleIcon, gitIcon, githubIcon],
-      marginTop: 70,
+      marginTop: 100,
     },
     {
       position: 'Project Advisor',
@@ -59,7 +59,7 @@ const Experience = () => {
         'Ensured compliance with the Agile methodology and Software Development Life Cycle',
       ],
       techStack: [reactIcon, jsIcon, nodeJsIcon, firebaseIcon, javaIcon, springIcon],
-      marginTop: 70,
+      marginTop: 100,
     },
   ];
 

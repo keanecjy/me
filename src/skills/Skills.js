@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './styles.css';
 import IconList from '../component/iconList/IconList';
 import {
@@ -19,7 +19,6 @@ import {
   springIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
-import { StateContext } from '../App';
 import IsVisible from 'react-is-visible';
 import { transitionHorizontal } from '../util/TransitionHorizontal';
 import code from '../images/app/skills.svg';
@@ -36,8 +35,6 @@ const Skills = () => {
     expressIcon,
   ];
 
-  const { isLight } = useContext(StateContext);
-
   const otherSkills = [
     kafkaIcon,
     dockerIcon,
@@ -52,7 +49,7 @@ const Skills = () => {
     <IsVisible once>
       {(isVisible) => (
         <div className="skills" style={transitionHorizontal(isVisible, -300)}>
-          <Header title={'Skills'} icon={<img src={code} height="54em" width="auto" />} />
+          <Header title={'Skills'} icon={<img src={code} alt="" height="54em" width="auto" />} />
           <p>I am decent in</p>
           <IconList icons={mainSkills} />
           <p>I have dabbled with</p>

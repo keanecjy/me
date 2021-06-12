@@ -16,10 +16,10 @@ import {
   reduxIcon,
   socketIcon,
 } from '../util/TechStack';
-import ModuleFutureGif from '../images/modulefuture.gif';
-import SortAlgoGif from '../images/sort-algo.gif';
-import InternHunterGif from '../images/internhunter.gif';
-import HelloWorldGif from '../images/helloworld.gif';
+import ModuleFutureGif from '../images/projects/modulefuture.gif';
+import SortAlgoGif from '../images/projects/sort-algo.gif';
+import InternHunterGif from '../images/projects/internhunter.gif';
+import HelloWorldGif from '../images/projects/helloworld.gif';
 import { FaLaptopCode } from 'react-icons/all';
 import Header from '../component/header/header';
 
@@ -35,7 +35,7 @@ const Projects = () => {
         'display for users to view and connect with users via a real-time chat interface.',
       appLink: 'https://helloworld-hnr.netlify.app/',
       codeLink: 'https://github.com/keanecjy/HelloWorld',
-      techStack: [reactIcon, reduxIcon, jsIcon, nodeJsIcon, expressIcon, socketIcon, mongodbIcon],
+      techStack: [reactIcon, reduxIcon, jsIcon, nodeJsIcon, expressIcon, mongodbIcon, socketIcon],
       marginTop: 40,
     },
     {
@@ -49,7 +49,7 @@ const Projects = () => {
         'step-by-step explanation.',
       appLink: 'https://algosort.netlify.app/',
       codeLink: 'https://github.com/keanecjy/sort-algo',
-      techStack: [reactIcon, reduxIcon, nodeJsIcon, jsIcon, cssIcon, htmlIcon, adobeXdIcon],
+      techStack: [reactIcon, jsIcon, nodeJsIcon, cssIcon, htmlIcon, adobeXdIcon],
       marginTop: 90,
     },
     {

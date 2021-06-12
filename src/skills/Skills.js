@@ -3,18 +3,19 @@ import './styles.css';
 import IconList from '../component/iconList/IconList';
 import {
   adobeXdIcon,
+  dockerIcon,
   expressIcon,
   firebaseIcon,
-  javaFxIcon,
+  grpcIcon,
   javaIcon,
   jsIcon,
+  kafkaIcon,
   mongodbIcon,
   nodeJsIcon,
   postgreSQLIcon,
   pythonIcon,
   reactIcon,
   reduxIcon,
-  socketIcon,
   springIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
@@ -24,20 +25,28 @@ import IsVisible from 'react-is-visible';
 import { transitionHorizontal } from '../util/TransitionHorizontal';
 
 const Skills = () => {
-  const skills = [
+  const mainSkills = [
     javaIcon,
     springIcon,
+    grpcIcon,
+    postgreSQLIcon,
     reactIcon,
-    reduxIcon,
     jsIcon,
     nodeJsIcon,
-    postgreSQLIcon,
     expressIcon,
   ];
 
   const { isLight } = useContext(StateContext);
 
-  const skills2 = [javaFxIcon, mongodbIcon, socketIcon, pythonIcon, firebaseIcon, adobeXdIcon];
+  const otherSkills = [
+    kafkaIcon,
+    dockerIcon,
+    mongodbIcon,
+    reduxIcon,
+    pythonIcon,
+    firebaseIcon,
+    adobeXdIcon,
+  ];
 
   return (
     <IsVisible once>
@@ -48,9 +57,9 @@ const Skills = () => {
             icon={<GiSkills color={isLight ? '#7a3535' : '#ad8ade'} size={'2em'} />}
           />
           <p>I am decent in</p>
-          <IconList icons={skills} />
+          <IconList icons={mainSkills} />
           <p>I have dabbled with</p>
-          <IconList icons={skills2} />
+          <IconList icons={otherSkills} />
         </div>
       )}
     </IsVisible>

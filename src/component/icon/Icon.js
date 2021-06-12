@@ -3,7 +3,7 @@ import './styles.css';
 import { OverlayTrigger } from 'react-bootstrap';
 import { StateContext } from '../../App';
 
-const Icon = ({ icon, name, width }) => {
+const Icon = ({ icon, name }) => {
   const { isLight } = useContext(StateContext);
 
   return (
@@ -20,7 +20,7 @@ const Icon = ({ icon, name, width }) => {
         </p>
       }
     >
-      <img alt={name} src={icon} style={{ width: width }} className="icon" />
+      <img alt={name} src={icon} style={{ height: "1.9em", width: "auto" }} className="icon" />
     </OverlayTrigger>
   );
 };

@@ -6,7 +6,7 @@ const IconList = ({ icons }) => {
   return (
     <div className="icon-list">
       {icons.map((item) => (
-        <Icon icon={item.icon} name={item.name} width={item.width} key={item.name} />
+        <Icon icon={item.icon} name={item.name} key={item.name} />
       ))}
     </div>
   );

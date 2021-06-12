@@ -7,9 +7,9 @@ import { transitionHorizontal } from '../util/TransitionHorizontal';
 const Intro = () => {
   const INTRO =
     "Hi there! I'm Keane, and I enjoy building software that is both elegant and intuitive.";
-  const NUS_LINK = 'http://nus.edu.sg/';
-  const YEAR_OF_STUDY = 'I am currently a Computer Science undergraduate at ';
-  const SCHOOL = 'National University of Singapore.';
+  const COMPANY_LINK = 'https://wise.com/';
+  const CURRENT_JOB = 'Currently a Backend Software Engineer Intern at ';
+  const COMPANY = 'TransferWise.';
 
   return (
     <IsVisible once>
@@ -18,9 +18,9 @@ const Intro = () => {
           <p className="wave-icon">👋</p>
           <p className="intro">{INTRO}</p>
           <p className="school">
-            {YEAR_OF_STUDY}
-            <a href={NUS_LINK} className="underline" target="_blank" rel="noopener noreferrer">
-              {SCHOOL}
+            {CURRENT_JOB}
+            <a href={COMPANY_LINK} className="underline" target="_blank" rel="noopener noreferrer">
+              {COMPANY}
             </a>
           </p>
           <LinkedIconList />

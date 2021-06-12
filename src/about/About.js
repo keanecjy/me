@@ -18,6 +18,7 @@ const About = () => {
             icon={<GiOpenBook color={isLight ? '#7a3535' : '#ad8ade'} size={'2em'} />}
           />
           <p>
+            I am a year 3 Computer Science undergraduate at the National University of Singapore.
             I enjoy learning and exploring new things in the field of software development. More
             recently, I have been learning backend development and databases.
           </p>

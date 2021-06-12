@@ -1,7 +1,7 @@
 import React from 'react';
 import ToggleContainer from './toggleButton.styled';
-import { ReactComponent as MoonIcon } from '../images/moon.svg';
-import { ReactComponent as SunIcon } from '../images/sun.svg';
+import { ReactComponent as MoonIcon } from '../images/app/moon.svg';
+import { ReactComponent as SunIcon } from '../images/app/sun.svg';
 import './styles.css';
 
 const Toggle = ({ theme, toggleTheme }) => {

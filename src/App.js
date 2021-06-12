@@ -42,7 +42,7 @@ function App() {
             </div>
             <div className="empty-space" id="skills" />
             <Skills />
-            <div className="empty-space" id="skills" />
+            <div className="empty-space" id="experience" />
             <Experience />
             <div className="empty-space" id="projects" />
             <Projects />

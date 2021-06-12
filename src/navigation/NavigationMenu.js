@@ -35,6 +35,9 @@ const NavigationMenu = ({ theme, toggleTheme }) => {
           <Nav.Link onSelect={() => collapseNavBar()} href="#skills">
             Skills
           </Nav.Link>
+          <Nav.Link onSelect={() => collapseNavBar()} href="#experience">
+            Experience
+          </Nav.Link>
           <Nav.Link onSelect={() => collapseNavBar()} href="#projects">
             Projects
           </Nav.Link>

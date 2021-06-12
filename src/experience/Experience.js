@@ -17,6 +17,9 @@ import Header from '../component/header/header';
 import { FaLaptopCode } from 'react-icons/all';
 import React from 'react';
 import SingleExperience from './SingleExperience';
+import './styles.css';
+import IsVisible from 'react-is-visible';
+import { transitionHorizontal } from '../util/TransitionHorizontal';
 
 const Experience = () => {
   const experiences = [
@@ -60,12 +63,16 @@ const Experience = () => {
   ];
 
   return (
-    <div className="experience">
-      <Header title={'Experience'} icon={<FaLaptopCode color={'#a47070'} size={'2em'} />} />
-      {experiences.map((exp) => (
-        <SingleExperience props={exp} key={exp.company} />
-      ))}
-    </div>
+    <IsVisible once>
+      {(isVisible) => (
+        <div className="experience" style={transitionHorizontal(isVisible, -300)}>
+          <Header title={'Experience'} icon={<FaLaptopCode color={'#a47070'} size={'2em'} />} />
+          {experiences.map((exp) => (
+            <SingleExperience props={exp} key={exp.company} />
+          ))}
+        </div>
+      )}
+    </IsVisible>
   );
 };
 

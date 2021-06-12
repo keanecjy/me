@@ -1,5 +1,5 @@
 .experience {
-  margin-bottom: -130px;
+  margin-bottom: -100px;
 }
 
 .job-title {
@@ -12,7 +12,6 @@
   flex-direction: row;
   gap: 10px;
   width: 85%;
-  font-size: 1.05em;
 }
 
 .single-desc p {
@@ -21,4 +20,11 @@
 
 .tech-stack {
   margin-top: 1.3em;
+}
+
+/* Large devices (laptops/desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .single-desc {
+    font-size: 1.05em;
+  }
 }

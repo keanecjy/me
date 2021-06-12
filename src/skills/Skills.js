@@ -19,10 +19,10 @@ import {
   springIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
-import { GiSkills } from 'react-icons/all';
 import { StateContext } from '../App';
 import IsVisible from 'react-is-visible';
 import { transitionHorizontal } from '../util/TransitionHorizontal';
+import code from '../images/app/skills.svg';
 
 const Skills = () => {
   const mainSkills = [
@@ -52,10 +52,7 @@ const Skills = () => {
     <IsVisible once>
       {(isVisible) => (
         <div className="skills" style={transitionHorizontal(isVisible, -300)}>
-          <Header
-            title={'Skills'}
-            icon={<GiSkills color={isLight ? '#7a3535' : '#ad8ade'} size={'2em'} />}
-          />
+          <Header title={'Skills'} icon={<img src={code} height="54em" width="auto" />} />
           <p>I am decent in</p>
           <IconList icons={mainSkills} />
           <p>I have dabbled with</p>

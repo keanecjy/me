@@ -14,12 +14,12 @@ import {
   springIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
-import { FaLaptopCode } from 'react-icons/all';
 import React from 'react';
 import SingleExperience from './SingleExperience';
 import './styles.css';
 import IsVisible from 'react-is-visible';
 import { transitionHorizontal } from '../util/TransitionHorizontal';
+import portfolio from '../images/app/portfolio.svg';
 
 const Experience = () => {
   const experiences = [
@@ -50,7 +50,8 @@ const Experience = () => {
     },
     {
       position: 'Project Advisor',
-      company: 'National University of Singapore',
+      // To handle small screens since the text becomes too long
+      company: window.screen.width > 760 ? 'National University of Singapore' : 'NUS',
       companyLink: 'https://nus.edu.sg/',
       period: 'May 2021 - Present',
       desc: [
@@ -66,7 +67,7 @@ const Experience = () => {
     <IsVisible once>
       {(isVisible) => (
         <div className="experience" style={transitionHorizontal(isVisible, -300)}>
-          <Header title={'Experience'} icon={<FaLaptopCode color={'#a47070'} size={'2em'} />} />
+          <Header title={'Experience'} icon={<img src={portfolio} alt="" height="64em" width="auto"/>} yVal={14} />
           {experiences.map((exp) => (
             <SingleExperience props={exp} key={exp.company} />
           ))}

@@ -21,7 +21,6 @@ import kafka from '../images/skills/kafka.svg';
 import git from '../images/skills/git.svg';
 import github from '../images/skills/github.svg';
 import gradle from '../images/skills/gradle.svg';
-import groovy from '../images/skills/groovy.svg';
 
 // Main tech stack
 export const javaIcon = { icon: java, name: 'Java' };

@@ -1,5 +1,6 @@
+/* To handle the positioning with collapsed nav bar */
 .empty-space {
-  height: 250px;
+  height: 320px;
 }
 
 .app {

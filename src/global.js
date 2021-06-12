@@ -104,8 +104,8 @@ export const GlobalStyles = createGlobalStyle`
   
   @media screen and (min-width: 992px) {
     .empty-space {
-      height: 40px;
-      margin-top: 180px;
+      height: 60px;
+      margin-top: 240px;
     }
   }
   

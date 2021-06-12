@@ -20,8 +20,8 @@ import ModuleFutureGif from '../images/projects/modulefuture.gif';
 import SortAlgoGif from '../images/projects/sort-algo.gif';
 import InternHunterGif from '../images/projects/internhunter.gif';
 import HelloWorldGif from '../images/projects/helloworld.gif';
-import { FaLaptopCode } from 'react-icons/all';
 import Header from '../component/header/header';
+import code from '../images/app/code.svg';
 
 const Projects = () => {
   const projects = [
@@ -81,7 +81,7 @@ const Projects = () => {
 
   return (
     <div className="projects">
-      <Header title={'Projects'} icon={<FaLaptopCode color={'#a47070'} size={'2em'} />} />
+      <Header title={'Projects'} icon={<img src={code} alt="" height="54em" width="auto" />} />
       {projects.map((proj) => (
         <SingleProject props={proj} key={proj.name} />
       ))}

@@ -1,11 +1,11 @@
 import React from 'react';
 import './styles.css';
 
-const Header = ({ title, icon }) => {
+const Header = ({ title, icon, yVal }) => {
   return (
     <div className="header">
       <h1>{title}</h1>
-      {icon}
+      <div style={{transform: `translateY(-${yVal}px)`}}> {icon}</div>
     </div>
   );
 };

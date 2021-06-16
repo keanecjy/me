@@ -5,7 +5,7 @@ const Header = ({ title, icon, yVal }) => {
   return (
     <div className="header">
       <h1>{title}</h1>
-      <div style={{transform: `translateY(-${yVal}px)`}}> {icon}</div>
+      <div style={{ transform: `translateY(-${yVal}px)` }}> {icon}</div>
     </div>
   );
 };

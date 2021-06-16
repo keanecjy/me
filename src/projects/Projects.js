@@ -6,6 +6,7 @@ import {
   cssIcon,
   expressIcon,
   firebaseIcon,
+  gradleIcon,
   htmlIcon,
   javaFxIcon,
   javaIcon,
@@ -74,7 +75,7 @@ const Projects = () => {
         'track their internship applications and resume details.',
       appLink: 'https://github.com/keanecjy/tp#internhunter',
       codeLink: 'https://github.com/keanecjy/tp',
-      techStack: [javaIcon, javaFxIcon, cssIcon, adobeXdIcon],
+      techStack: [javaIcon, javaFxIcon, gradleIcon, cssIcon, adobeXdIcon],
       marginTop: 90,
     },
   ];

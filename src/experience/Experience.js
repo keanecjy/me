@@ -1,8 +1,7 @@
 import {
+  cssIcon,
   dockerIcon,
   firebaseIcon,
-  githubIcon,
-  gitIcon,
   gradleIcon,
   grpcIcon,
   javaFxIcon,
@@ -29,10 +28,11 @@ const Experience = () => {
       companyLink: 'https://wise.com/',
       period: 'May 2021 - Present',
       desc: [
-        'Reduce percentage of failed debit card generations by 90% in 2 weeks by redesigning and implementing backend API calls between multiple microservices for the generation of Primary Account Numbers (PAN)',
+        'Reduced percentage of failed gRPC errors by 90% in 2 weeks by redesigning and implementing multiple backend gRPC API endpoints across several Java Spring Boot microservices',
+        'Spearheaded the migration of a REST API endpoint to increase scalability and shift logic towards backend to resolve platform bugs',
         'Leverage knowledge in REST API Design, API migration, microservices development and Unit and Integration testing',
       ],
-      techStack: [javaIcon, springIcon, grpcIcon, postgreSQLIcon, dockerIcon],
+      techStack: [javaIcon, springIcon, grpcIcon, postgreSQLIcon, gradleIcon, dockerIcon],
       marginTop: 40,
     },
     {
@@ -41,11 +41,11 @@ const Experience = () => {
       companyLink: 'https://se-education.org/',
       period: 'Jan 2021 - May 2021',
       desc: [
-        'Collaborated with a team of 6 developers to maintain and improve multiple open-source software used by 800 NUS students/day',
+        'Collaborated with a team of 6 developers to maintain and improve multiple open-source software used by 800 NUS students per day',
         'Conducted and coordinated code and design documentation reviews for features developed and bugs fixed',
         'Leveraged knowledge in Software Design Patterns and Principles, Unit and Integration testing and Jackson JSON',
       ],
-      techStack: [javaIcon, javaFxIcon, gradleIcon, gitIcon, githubIcon],
+      techStack: [javaIcon, javaFxIcon, gradleIcon, cssIcon],
       marginTop: 100,
     },
     {
@@ -56,9 +56,9 @@ const Experience = () => {
       period: 'May 2021 - Present',
       desc: [
         'Manage and oversee development of 6 full stack web and mobile development projects',
-        'Ensured compliance with the Agile methodology and Software Development Life Cycle',
+        'Teach and guide students on Software Development Life Cycle, OO design and Agile methodology',
       ],
-      techStack: [reactIcon, jsIcon, nodeJsIcon, firebaseIcon, javaIcon, springIcon],
+      techStack: [javaIcon, springIcon, reactIcon, jsIcon, nodeJsIcon, firebaseIcon],
       marginTop: 100,
     },
   ];
@@ -67,7 +67,11 @@ const Experience = () => {
     <IsVisible once>
       {(isVisible) => (
         <div className="experience" style={transitionHorizontal(isVisible, -300)}>
-          <Header title={'Experience'} icon={<img src={portfolio} alt="" height="64em" width="auto"/>} yVal={14} />
+          <Header
+            title={'Experience'}
+            icon={<img src={portfolio} alt="" height="64em" width="auto" />}
+            yVal={14}
+          />
           {experiences.map((exp) => (
             <SingleExperience props={exp} key={exp.company} />
           ))}

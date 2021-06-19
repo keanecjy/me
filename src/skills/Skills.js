@@ -29,7 +29,6 @@ const Skills = () => {
     springIcon,
     grpcIcon,
     postgreSQLIcon,
-    reactIcon,
     jsIcon,
     nodeJsIcon,
     expressIcon,
@@ -39,8 +38,9 @@ const Skills = () => {
     kafkaIcon,
     dockerIcon,
     mongodbIcon,
-    reduxIcon,
     pythonIcon,
+    reactIcon,
+    reduxIcon,
     firebaseIcon,
     adobeXdIcon,
   ];

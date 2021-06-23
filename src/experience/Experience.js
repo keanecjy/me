@@ -30,7 +30,7 @@ const Experience = () => {
       companyLink: 'https://wise.com/',
       period: 'May 2021 - Present',
       desc: [
-        'Redesigned and developed multiple backend gRPC API endpoints across several Java Spring Boot microservices in 2 weeks, reducing percentage of failed debit card generations by 94%',
+        'Redesigned and developed multiple backend gRPC API endpoints across several Java Spring Boot microservices in 2 weeks, reducing percentage of failed debit card generations',
         'Spearheaded the migration of REST API endpoint to increase scalability and shift logic towards backend to resolve platform bugs',
         'Leverage knowledge in REST API Design, API migration, microservices development, Unit/Integration testing',
       ],

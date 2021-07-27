@@ -21,6 +21,7 @@ import kafka from '../images/skills/kafka.svg';
 import git from '../images/skills/git.svg';
 import github from '../images/skills/github.svg';
 import gradle from '../images/skills/gradle.svg';
+import groovy from '../images/skills/groovy.svg';
 
 // Main tech stack
 export const javaIcon = { icon: java, name: 'Java' };
@@ -48,3 +49,4 @@ export const socketIcon = { icon: socketIo, name: 'socket.io' };
 export const gitIcon = { icon: git, name: 'Git' };
 export const githubIcon = { icon: github, name: 'GitHub' };
 export const gradleIcon = { icon: gradle, name: 'Gradle' };
+export const groovyIcon = { icon: groovy, name: 'Groovy' };

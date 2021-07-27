@@ -17,6 +17,7 @@ import {
   reactIcon,
   reduxIcon,
   springIcon,
+  groovyIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
 import IsVisible from 'react-is-visible';
@@ -32,6 +33,7 @@ const Skills = () => {
     jsIcon,
     nodeJsIcon,
     expressIcon,
+    groovyIcon,
   ];
 
   const otherSkills = [

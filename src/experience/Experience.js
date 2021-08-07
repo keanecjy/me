@@ -29,12 +29,13 @@ const Experience = () => {
       position: 'Software Engineer Intern (Backend)',
       company: 'TransferWise',
       companyLink: 'https://wise.com/',
-      period: 'May 2021 - Present',
+      period: 'May 2021 - Aug 2021',
       desc: [
-        'Worked on the Cards team to improve card order flow, issuance and replacement of debit cards, and generation of debit card details',
-        'Designed and implemented the enhancement of REST API endpoints to increase scalability and resolve frontend platform bugs',
-        'Developed multiple gRPC API endpoints across several Java Spring Boot microservices to eliminate failed debit card generations',
-        'Leverage knowledge in REST API Design, API migration, microservices development, Unit/Integration testing',
+        'Launched a new smart replacement feature that allow users to replace their debit cards for free, decreasing card order flow dropouts and customer complaints on card replacement fee issues',
+        'Designed and implemented the new versions of REST and gRPC API endpoints across multiple Java Spring Boot microservices to improve scalability and latency',
+        'Eliminated repeated retry tasks to generate debit card numbers and contributed to an increase in card generation speed',
+        'Completed assigned projects 3 weeks in advance, received outstanding feedback on code quality and design',
+        'Leverage knowledge in REST API Design, microservices development, Unit and Integration testing',
       ],
       techStack: [
         javaIcon,
@@ -65,7 +66,7 @@ const Experience = () => {
       // To handle small screens since the text becomes too long
       company: window.screen.width > 760 ? 'National University of Singapore' : 'NUS',
       companyLink: 'https://nus.edu.sg/',
-      period: 'May 2021 - Present',
+      period: 'May 2021 - Aug 2021',
       desc: [
         'Manage and oversee development of 6 full stack web and mobile development projects',
         'Teach and guide students on Software Development Life Cycle, OO design and Agile methodology',

@@ -31,10 +31,10 @@ const Experience = () => {
       companyLink: 'https://wise.com/',
       period: 'May 2021 - Aug 2021',
       desc: [
-        'Spearheaded the launch of a smart replacement feature that allow users to replace their debit cards for free, decreasing card order flow dropouts and customer complaints on card replacement fee issues',
-        'Designed and implemented the new versions of REST and gRPC API endpoints across multiple Java Spring Boot microservices to improve scalability and latency',
+        'Built new versions of custom REST API endpoints to improve scalability by reducing size of JSON payload',
+        'Redesigned and developed gRPC APIs across multiple Java Spring Boot microservices to improve inter-service communication',
         'Implemented unit and integration tests using Mocks, Stubs and F.I.R.S.T. testing principles',
-        'Completed assigned projects 3 weeks in advance, received outstanding feedback on code quality and design',
+        'Utilized behavior and test-driven development (BDD, TDD) in an event-driven architecture within a PCI DSS secure environment',
         'Leveraged knowledge in REST API Design, microservices development, JPA, Hibernate',
       ],
       techStack: [
@@ -54,7 +54,7 @@ const Experience = () => {
       companyLink: 'https://se-education.org/',
       period: 'Jan 2021 - May 2021',
       desc: [
-        'Collaborated with a team of 6 developers to maintain and improve multiple open-source software used by 800 NUS students per day',
+        'Collaborated with a team of 6 developers to maintain and improve multiple open-source software used by 800 students / day',
         'Conducted and coordinated code and design documentation reviews for features developed and bugs fixed',
         'Leveraged knowledge in Software Design Patterns and Principles, Unit and Integration testing and Jackson JSON',
       ],

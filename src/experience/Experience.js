@@ -26,16 +26,16 @@ import portfolio from '../images/app/portfolio.svg';
 const Experience = () => {
   const experiences = [
     {
-      position: 'Software Engineer Intern (Backend)',
+      position: 'Software Engineer Intern',
       company: 'TransferWise',
       companyLink: 'https://wise.com/',
       period: 'May 2021 - Aug 2021',
       desc: [
         'Spearheaded the launch of a smart replacement feature that allow users to replace their debit cards for free, decreasing card order flow dropouts and customer complaints on card replacement fee issues',
         'Designed and implemented the new versions of REST and gRPC API endpoints across multiple Java Spring Boot microservices to improve scalability and latency',
-        'Eliminated repeated retry tasks to generate debit card numbers and contributed to an increase in card generation speed',
+        'Implemented unit and integration tests using Mocks, Stubs and F.I.R.S.T. testing principles',
         'Completed assigned projects 3 weeks in advance, received outstanding feedback on code quality and design',
-        'Leverage knowledge in REST API Design, microservices development, Unit and Integration testing',
+        'Leveraged knowledge in REST API Design, microservices development, JPA, Hibernate',
       ],
       techStack: [
         javaIcon,

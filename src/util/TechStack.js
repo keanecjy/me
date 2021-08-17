@@ -14,7 +14,6 @@ import mongodb from '../images/skills/mongodb.svg';
 import socketIo from '../images/skills/socketio.svg';
 import postgreSQL from '../images/skills/postgresql.svg';
 import spring from '../images/skills/spring.svg';
-import redux from '../images/skills/redux.svg';
 import grpc from '../images/skills/grpc.svg';
 import docker from '../images/skills/docker.svg';
 import kafka from '../images/skills/kafka.svg';
@@ -22,11 +21,12 @@ import git from '../images/skills/git.svg';
 import github from '../images/skills/github.svg';
 import gradle from '../images/skills/gradle.svg';
 import groovy from '../images/skills/groovy.svg';
+import golang from '../images/skills/go.svg';
 
 // Main tech stack
 export const javaIcon = { icon: java, name: 'Java' };
 export const springIcon = { icon: spring, name: 'Spring Boot' };
-export const grpcIcon = { icon: grpc, name: 'gRPC' };
+export const grpcIcon = { icon: grpc, name: 'gRPC', height: '1.6em' };
 export const postgreSQLIcon = { icon: postgreSQL, name: 'PostgreSQL' };
 export const reactIcon = { icon: react, name: 'React' };
 export const jsIcon = { icon: javascript, name: 'JavaScript' };
@@ -35,13 +35,12 @@ export const expressIcon = { icon: express, name: 'Express.js' };
 
 // Other tech stack
 export const kafkaIcon = { icon: kafka, name: 'Apache Kafka' };
-export const dockerIcon = { icon: docker, name: 'Docker' };
+export const dockerIcon = { icon: docker, name: 'Docker', height: '1.7em' };
 export const firebaseIcon = { icon: firebase, name: 'Firebase' };
 export const pythonIcon = { icon: python, name: 'Python' };
 export const cssIcon = { icon: css, name: 'CSS' };
 export const htmlIcon = { icon: html, name: 'HTML' };
 export const adobeXdIcon = { icon: adobexd, name: 'Adobe XD' };
-export const reduxIcon = { icon: redux, name: 'Redux' };
 export const javaFxIcon = { icon: javafx, name: 'JavaFX' };
 export const figmaIcon = { icon: figma, name: 'Figma' };
 export const mongodbIcon = { icon: mongodb, name: 'MongoDB' };
@@ -50,3 +49,4 @@ export const gitIcon = { icon: git, name: 'Git' };
 export const githubIcon = { icon: github, name: 'GitHub' };
 export const gradleIcon = { icon: gradle, name: 'Gradle' };
 export const groovyIcon = { icon: groovy, name: 'Groovy' };
+export const goIcon = { icon: golang, name: 'Go', height: '1.2em' };

@@ -1,18 +1,14 @@
 import {
   cssIcon,
   dockerIcon,
-  firebaseIcon,
   gitIcon,
+  goIcon,
   gradleIcon,
   groovyIcon,
   grpcIcon,
   javaFxIcon,
   javaIcon,
-  jsIcon,
-  kafkaIcon,
-  nodeJsIcon,
   postgreSQLIcon,
-  reactIcon,
   springIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
@@ -27,6 +23,17 @@ const Experience = () => {
   const experiences = [
     {
       position: 'Software Engineer Intern',
+      company: 'Carousell',
+      companyLink: 'https://careers.carousell.com/',
+      period: 'Aug 2021 - Present',
+      desc: [
+        'Developed and improved APIs and services using Go and PostgreSQL across a distributed microservice architecture',
+      ],
+      techStack: [goIcon, grpcIcon, postgreSQLIcon],
+      marginTop: 40,
+    },
+    {
+      position: 'Software Engineer Intern',
       company: 'TransferWise',
       companyLink: 'https://wise.com/',
       period: 'May 2021 - Aug 2021',
@@ -37,16 +44,8 @@ const Experience = () => {
         'Utilized behavior and test-driven development (BDD, TDD) in an event-driven architecture within a PCI DSS secure environment',
         'Leveraged knowledge in REST API Design, microservices development, JPA, Hibernate',
       ],
-      techStack: [
-        javaIcon,
-        springIcon,
-        grpcIcon,
-        kafkaIcon,
-        postgreSQLIcon,
-        dockerIcon,
-        groovyIcon,
-      ],
-      marginTop: 40,
+      techStack: [javaIcon, springIcon, grpcIcon, postgreSQLIcon, groovyIcon, dockerIcon],
+      marginTop: 90,
     },
     {
       position: 'Software Engineer',
@@ -59,19 +58,6 @@ const Experience = () => {
         'Leveraged knowledge in Software Design Patterns and Principles, Unit and Integration testing and Jackson JSON',
       ],
       techStack: [javaIcon, javaFxIcon, gradleIcon, cssIcon, gitIcon],
-      marginTop: 100,
-    },
-    {
-      position: 'Project Advisor',
-      // To handle small screens since the text becomes too long
-      company: window.screen.width > 760 ? 'National University of Singapore' : 'NUS',
-      companyLink: 'https://nus.edu.sg/',
-      period: 'May 2021 - Aug 2021',
-      desc: [
-        'Manage and oversee development of 6 full stack web and mobile development projects',
-        'Teach and guide students on Software Development Life Cycle, OO design and Agile methodology',
-      ],
-      techStack: [javaIcon, springIcon, reactIcon, jsIcon, nodeJsIcon, firebaseIcon],
       marginTop: 100,
     },
   ];

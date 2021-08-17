@@ -8,9 +8,9 @@ import { transitionHorizontal } from '../util/TransitionHorizontal';
 const Intro = () => {
   const INTRO =
     "Hi there! I'm Keane, and I enjoy building software that is both beautiful and impactful.";
-  const COMPANY_LINK = 'https://wise.com/';
+  const COMPANY_LINK = 'https://careers.carousell.com/';
   const CURRENT_JOB = 'Currently a Software Engineer Intern at ';
-  const COMPANY = 'TransferWise.';
+  const COMPANY = 'Carousell.';
 
   return (
     <IsVisible once>

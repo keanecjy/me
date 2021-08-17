@@ -14,7 +14,6 @@ import {
   mongodbIcon,
   nodeJsIcon,
   reactIcon,
-  reduxIcon,
   socketIcon,
 } from '../util/TechStack';
 import ModuleFutureGif from '../images/projects/modulefuture.gif';
@@ -36,7 +35,7 @@ const Projects = () => {
         'display for users to view and connect with users via a real-time chat interface.',
       appLink: 'https://helloworld-hnr.netlify.app/',
       codeLink: 'https://github.com/keanecjy/HelloWorld',
-      techStack: [reactIcon, reduxIcon, jsIcon, nodeJsIcon, expressIcon, mongodbIcon, socketIcon],
+      techStack: [reactIcon, jsIcon, nodeJsIcon, expressIcon, mongodbIcon, socketIcon],
       marginTop: 40,
     },
     {

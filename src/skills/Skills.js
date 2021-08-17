@@ -2,10 +2,10 @@ import React from 'react';
 import './styles.css';
 import IconList from '../component/iconList/IconList';
 import {
-  adobeXdIcon,
   dockerIcon,
   expressIcon,
-  firebaseIcon,
+  goIcon,
+  groovyIcon,
   grpcIcon,
   javaIcon,
   jsIcon,
@@ -15,9 +15,7 @@ import {
   postgreSQLIcon,
   pythonIcon,
   reactIcon,
-  reduxIcon,
   springIcon,
-  groovyIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
 import IsVisible from 'react-is-visible';
@@ -32,19 +30,17 @@ const Skills = () => {
     postgreSQLIcon,
     jsIcon,
     nodeJsIcon,
-    expressIcon,
     groovyIcon,
   ];
 
   const otherSkills = [
+    goIcon,
+    pythonIcon,
     kafkaIcon,
     dockerIcon,
+    expressIcon,
     mongodbIcon,
-    pythonIcon,
     reactIcon,
-    reduxIcon,
-    firebaseIcon,
-    adobeXdIcon,
   ];
 
   return (

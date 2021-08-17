@@ -17,7 +17,7 @@ import SingleExperience from './SingleExperience';
 import './styles.css';
 import IsVisible from 'react-is-visible';
 import { transitionHorizontal } from '../util/TransitionHorizontal';
-import portfolio from '../images/app/portfolio.svg';
+import portfolio from '../images/app/briefcase.svg';
 
 const Experience = () => {
   const experiences = [
@@ -68,8 +68,9 @@ const Experience = () => {
         <div className="experience" style={transitionHorizontal(isVisible, -300)}>
           <Header
             title={'Experience'}
-            icon={<img src={portfolio} alt="" height="64em" width="auto" />}
-            yVal={14}
+            icon={<img src={portfolio} alt="" height="56em" width="auto" />}
+            xVal={6}
+            yVal={8}
           />
           {experiences.map((exp) => (
             <SingleExperience props={exp} key={exp.company} />

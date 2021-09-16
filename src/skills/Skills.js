@@ -26,15 +26,15 @@ const Skills = () => {
   const mainSkills = [
     javaIcon,
     springIcon,
+    goIcon,
     grpcIcon,
     postgreSQLIcon,
+    groovyIcon,
     jsIcon,
     nodeJsIcon,
-    groovyIcon,
   ];
 
   const otherSkills = [
-    goIcon,
     pythonIcon,
     kafkaIcon,
     dockerIcon,

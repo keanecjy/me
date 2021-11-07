@@ -11,11 +11,13 @@ import {
   jsIcon,
   kafkaIcon,
   mongodbIcon,
+  nestIcon,
   nodeJsIcon,
   postgreSQLIcon,
   pythonIcon,
   reactIcon,
   springIcon,
+  tsIcon,
 } from '../util/TechStack';
 import Header from '../component/header/header';
 import IsVisible from 'react-is-visible';
@@ -35,12 +37,14 @@ const Skills = () => {
   ];
 
   const otherSkills = [
+    tsIcon,
+    reactIcon,
     pythonIcon,
     kafkaIcon,
     dockerIcon,
     expressIcon,
+    nestIcon,
     mongodbIcon,
-    reactIcon,
   ];
 
   return (

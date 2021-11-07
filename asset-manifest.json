@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/me/static/css/main.e78b5df2.chunk.css",
-    "main.js": "/me/static/js/main.819f9c21.chunk.js",
-    "main.js.map": "/me/static/js/main.819f9c21.chunk.js.map",
+    "main.js": "/me/static/js/main.c00ce41e.chunk.js",
+    "main.js.map": "/me/static/js/main.c00ce41e.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.54fbf8aa.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.54fbf8aa.js.map",
     "static/css/2.bd932d36.chunk.css": "/me/static/css/2.bd932d36.chunk.css",
@@ -38,6 +38,7 @@
     "static/media/modulefuture.efa16c9c.gif": "/me/static/media/modulefuture.efa16c9c.gif",
     "static/media/mongodb.0368dd10.svg": "/me/static/media/mongodb.0368dd10.svg",
     "static/media/moon.bdf5aca7.svg": "/me/static/media/moon.bdf5aca7.svg",
+    "static/media/nestjs.9c70b41c.svg": "/me/static/media/nestjs.9c70b41c.svg",
     "static/media/nodejs.615ffbea.svg": "/me/static/media/nodejs.615ffbea.svg",
     "static/media/personal.0fde7782.svg": "/me/static/media/personal.0fde7782.svg",
     "static/media/postgresql.b215fdee.svg": "/me/static/media/postgresql.b215fdee.svg",
@@ -48,13 +49,14 @@
     "static/media/socketio.c2e7106f.svg": "/me/static/media/socketio.c2e7106f.svg",
     "static/media/sort-algo.0a0f39b2.gif": "/me/static/media/sort-algo.0a0f39b2.gif",
     "static/media/spring.b701f1fc.svg": "/me/static/media/spring.b701f1fc.svg",
-    "static/media/sun.68763c5a.svg": "/me/static/media/sun.68763c5a.svg"
+    "static/media/sun.68763c5a.svg": "/me/static/media/sun.68763c5a.svg",
+    "static/media/typescript.75f182f4.svg": "/me/static/media/typescript.75f182f4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.54fbf8aa.js",
     "static/css/2.bd932d36.chunk.css",
     "static/js/2.ac258000.chunk.js",
     "static/css/main.e78b5df2.chunk.css",
-    "static/js/main.819f9c21.chunk.js"
+    "static/js/main.c00ce41e.chunk.js"
   ]
 }

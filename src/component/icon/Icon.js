@@ -20,7 +20,12 @@ const Icon = ({ icon, name, height }) => {
         </p>
       }
     >
-      <img alt={name} src={icon} style={{ height: height || '1.9em', width: 'auto' }} className="icon" />
+      <img
+        alt={name}
+        src={icon}
+        style={{ height: height || '1.9em', width: 'auto' }}
+        className="icon"
+      />
     </OverlayTrigger>
   );
 };

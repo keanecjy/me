@@ -24,6 +24,7 @@ import groovy from '../images/skills/groovy.svg';
 import golang from '../images/skills/go.svg';
 import typescript from '../images/skills/typescript.svg';
 import nestjs from '../images/skills/nestjs.svg';
+import mySQL from '../images/skills/mysql.svg';
 
 export const javaIcon = { icon: java, name: 'Java' };
 export const springIcon = { icon: spring, name: 'Spring Boot' };
@@ -49,5 +50,6 @@ export const githubIcon = { icon: github, name: 'GitHub' };
 export const gradleIcon = { icon: gradle, name: 'Gradle' };
 export const groovyIcon = { icon: groovy, name: 'Groovy' };
 export const goIcon = { icon: golang, name: 'Go', height: '1.2em' };
-export const tsIcon = {icon: typescript, name: 'TypeScript'};
-export const nestIcon = {icon: nestjs, name: 'NestJS'};
+export const tsIcon = { icon: typescript, name: 'TypeScript' };
+export const nestIcon = { icon: nestjs, name: 'NestJS' };
+export const mySQLIcon = { icon: mySQL, name: 'MySQL' };

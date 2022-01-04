@@ -26,9 +26,9 @@ const Experience = () => {
       position: 'Software Engineer Intern',
       company: 'Carousell',
       companyLink: 'https://careers.carousell.com/',
-      period: 'Aug 2021 - Present',
+      period: 'Aug 2021 - Dec 2021',
       desc: [
-        'Ported existing services onto isolated feature environments to increase testability and ensure safe and independent deployments',
+        'Ported existing services onto isolated on-demand feature environments to increase testability and ensure safe and independent deployments',
         'Migrated REST clients to gRPC clients to enhance performance and scalability of internal backend API endpoints',
         'Developed and optimized APIs and services using Golang and gRPC across a distributed microservice architecture',
       ],
@@ -58,7 +58,6 @@ const Experience = () => {
       desc: [
         'Collaborated with a team of 6 developers to maintain and improve multiple open-source software used by 800 students / day',
         'Conducted and coordinated code and design documentation reviews for features developed and bugs fixed',
-        'Leveraged knowledge in Software Design Patterns and Principles, Unit and Integration testing and Jackson JSON',
       ],
       techStack: [javaIcon, javaFxIcon, gradleIcon, cssIcon, gitIcon],
       marginTop: 100,

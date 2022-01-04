@@ -8,6 +8,7 @@ import {
   grpcIcon,
   javaFxIcon,
   javaIcon,
+  mySQLIcon,
   postgreSQLIcon,
   springIcon,
 } from '../util/TechStack';
@@ -27,11 +28,11 @@ const Experience = () => {
       companyLink: 'https://careers.carousell.com/',
       period: 'Aug 2021 - Present',
       desc: [
-        'Migrated REST clients to gRPC clients to enhance performance and scalability of internal backend API endpoints',
         'Ported existing services onto isolated feature environments to increase testability and ensure safe and independent deployments',
-        'Developed and improved APIs and services using Golang and gRPC across a distributed microservice architecture',
+        'Migrated REST clients to gRPC clients to enhance performance and scalability of internal backend API endpoints',
+        'Developed and optimized APIs and services using Golang and gRPC across a distributed microservice architecture',
       ],
-      techStack: [goIcon, grpcIcon, postgreSQLIcon],
+      techStack: [goIcon, grpcIcon, mySQLIcon, dockerIcon],
       marginTop: 40,
     },
     {

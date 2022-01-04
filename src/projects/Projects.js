@@ -12,41 +12,63 @@ import {
   javaIcon,
   jsIcon,
   mongodbIcon,
+  nestIcon,
   nodeJsIcon,
+  postgreSQLIcon,
   reactIcon,
+  redisIcon,
+  reduxIcon,
   socketIcon,
+  tsIcon,
 } from '../util/TechStack';
 import ModuleFutureGif from '../images/projects/modulefuture.gif';
 import SortAlgoGif from '../images/projects/sort-algo.gif';
 import InternHunterGif from '../images/projects/internhunter.gif';
 import HelloWorldGif from '../images/projects/helloworld.gif';
+import PeerPrepGif from '../images/projects/peerprep.gif';
 import Header from '../component/header/header';
 import code from '../images/app/code.svg';
 
 const Projects = () => {
   const projects = [
     {
+      gif: PeerPrepGif,
+      name: 'PeerPrep',
+      description: `
+        PeerPrep is a live collaborative coding interview platform built for students to
+        practise solving coding problems together with their peers. This project aims to break
+        the monotony of revising for coding interviews alone and allows students to prepare and learn
+        alongside their peers.
+      `,
+      appLink: 'https://github.com/keanecjy/PeerPrep',
+      codeLink: 'https://github.com/keanecjy/PeerPrep',
+      techStack: [reactIcon, reduxIcon, tsIcon, nestIcon, redisIcon, postgreSQLIcon, socketIcon],
+      marginTop: 40,
+    },
+    {
       gif: HelloWorldGif,
       name: 'HelloWorld',
-      description:
-        'HelloWorld is a real-time chat based application built for connecting users around the ' +
-        'globe. This project was inspired due to the frustration and ongoing boredom people' +
-        'face during the COVID-19 pandemic. The application comes with an interactive map ' +
-        'display for users to view and connect with users via a real-time chat interface.',
+      description: `
+        HelloWorld is a real-time chat based application built for connecting users around the 
+        globe. This project was inspired from the ongoing frustration and boredom people 
+        face during the COVID-19 pandemic. The application comes with an interactive map 
+        display for users to view and connect with users via an intuitive chat interface.
+      `,
       appLink: 'https://helloworld-hnr.netlify.app/',
       codeLink: 'https://github.com/keanecjy/HelloWorld',
       techStack: [reactIcon, jsIcon, nodeJsIcon, expressIcon, mongodbIcon, socketIcon],
-      marginTop: 40,
+      marginTop: 90,
     },
     {
       gif: SortAlgoGif,
       name: 'SortAlgo',
-      description:
-        'SortAlgo is an interactive sorting visualizer web application created for students ' +
-        'to learn and understand sorting algorithms better. This project was inspired from the ' +
-        'lack of visual representation when students learn sorting algorithms. The application ' +
-        'provides 10 sorting algorithms, each with its own unique animation and ' +
-        'step-by-step explanation.',
+      description: `
+        SortAlgo is an interactive sorting visualizer web application created for students 
+        to learn and understand sorting algorithms better. This project was inspired from the 
+        lack of visual representation when students learn sorting algorithms. The application
+        provides 10 sorting algorithms, each with its own unique animation and
+        step-by-step explanation.
+      `,
       appLink: 'https://algosort.netlify.app/',
       codeLink: 'https://github.com/keanecjy/sort-algo',
       techStack: [reactIcon, jsIcon, nodeJsIcon, cssIcon, htmlIcon, adobeXdIcon],
@@ -55,11 +77,12 @@ const Projects = () => {
     {
       gif: ModuleFutureGif,
       name: 'ModuleFuture',
-      description:
-        'ModuleFuture is a module planning mobile application designed for NUS students to plan ' +
-        'and track their modules. It helps students manage and plan their modules in advance, ' +
-        'and provides recommendations for specialization paths based on in-depth statistics ' +
-        'from the modules taken by users.',
+      description: `
+        ModuleFuture is a module planning mobile application designed for NUS students to plan 
+        and track their modules. It helps students manage and plan their modules in advance, 
+        and provides recommendations for specialization paths based on in-depth statistics 
+        from the modules taken by users.
+        `,
       appLink: 'https://github.com/keanecjy/ModuleFuture#features-preview',
       codeLink: 'https://github.com/keanecjy/ModuleFuture',
       techStack: [reactIcon, jsIcon, nodeJsIcon, firebaseIcon, cssIcon, htmlIcon, adobeXdIcon],
@@ -68,10 +91,11 @@ const Projects = () => {
     {
       gif: InternHunterGif,
       name: 'InternHunter',
-      description:
-        'InternHunter is an internship management application built for students to get the ' +
-        'internship they desire. It is built and optimized for fast typists to record and ' +
-        'track their internship applications and resume details.',
+      description: `
+        InternHunter is an internship management application built for students to get their 
+        dream internship! It is built and optimized for fast typists to record and 
+        track their internship applications and resume details.
+      `,
       appLink: 'https://github.com/keanecjy/tp#internhunter',
       codeLink: 'https://github.com/keanecjy/tp',
       techStack: [javaIcon, javaFxIcon, gradleIcon, cssIcon, adobeXdIcon],

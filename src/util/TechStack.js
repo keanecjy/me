@@ -25,6 +25,8 @@ import golang from '../images/skills/go.svg';
 import typescript from '../images/skills/typescript.svg';
 import nestjs from '../images/skills/nestjs.svg';
 import mySQL from '../images/skills/mysql.svg';
+import redux from '../images/skills/redux.svg';
+import redis from '../images/skills/redis-icon.svg';
 
 export const javaIcon = { icon: java, name: 'Java' };
 export const springIcon = { icon: spring, name: 'Spring Boot' };
@@ -53,3 +55,5 @@ export const goIcon = { icon: golang, name: 'Go', height: '1.2em' };
 export const tsIcon = { icon: typescript, name: 'TypeScript' };
 export const nestIcon = { icon: nestjs, name: 'NestJS' };
 export const mySQLIcon = { icon: mySQL, name: 'MySQL' };
+export const reduxIcon = { icon: redux, name: 'Redux' };
+export const redisIcon = { icon: redis, name: 'Redis' };

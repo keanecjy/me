@@ -43,7 +43,7 @@ const Experience = () => {
       desc: [
         'Spearheaded the launch of a new smart replacement feature that allows users to replace their debit cards for free',
         'Built and optimize new versions of custom REST API endpoints to improve scalability by implementing in-memory cache and reducing size of JSON payload',
-        'Redesigned and developed gRPC APIs across multiple Java Spring Boot microservices to improve inter-service communication',
+        'Redesigned and developed gRPC APIs across several microservices to remove dependency on middle service layer and decrease latency of API calls',
         'Implemented unit and integration tests using Mocks, Stubs and F.I.R.S.T. testing principles',
         'Utilized behavior and test-driven development (BDD, TDD) in an event-driven architecture within a PCI DSS secure environment',
       ],

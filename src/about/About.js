@@ -16,9 +16,10 @@ const About = () => {
             yVal={12}
           />
           <p>
-            I am a penultimate year Computer Science undergraduate at the National University of
-            Singapore. I enjoy learning and exploring new things in the field of software
-            development. More recently, I have been learning backend development and databases.
+            I am a penultimate Computer Science undergraduate at the National University of
+            Singapore. I enjoy learning and exploring new things in the field of Computer Science
+            and Software Engineering. More recently, I have been learning fullstack development and
+            databases.
           </p>
         </div>
       )}

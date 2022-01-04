@@ -40,11 +40,11 @@ const Experience = () => {
       companyLink: 'https://wise.com/',
       period: 'May 2021 - Aug 2021',
       desc: [
-        'Built new versions of custom REST API endpoints to improve scalability by reducing size of JSON payload',
+        'Spearheaded the launch of a new smart replacement feature that allows users to replace their debit cards for free',
+        'Built and optimize new versions of custom REST API endpoints to improve scalability by implementing in-memory cache and reducing size of JSON payload',
         'Redesigned and developed gRPC APIs across multiple Java Spring Boot microservices to improve inter-service communication',
         'Implemented unit and integration tests using Mocks, Stubs and F.I.R.S.T. testing principles',
         'Utilized behavior and test-driven development (BDD, TDD) in an event-driven architecture within a PCI DSS secure environment',
-        'Leveraged knowledge in REST API Design, microservices development, JPA, Hibernate',
       ],
       techStack: [javaIcon, springIcon, grpcIcon, postgreSQLIcon, groovyIcon, dockerIcon],
       marginTop: 90,

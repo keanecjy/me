@@ -1,5 +1,4 @@
 import React, { useContext } from 'react';
-import 'intersection-observer';
 import './styles.css';
 import '../projects/styles.css';
 import { StateContext } from '../App';

@@ -1,3 +1,6 @@
+import React from 'react';
+import Header from '../component/header/header';
+import portfolio from '../images/app/briefcase.svg';
 import {
   cssIcon,
   dockerIcon,
@@ -12,13 +15,8 @@ import {
   postgreSQLIcon,
   springIcon,
 } from '../util/TechStack';
-import Header from '../component/header/header';
-import React from 'react';
 import SingleExperience from './SingleExperience';
 import './styles.css';
-import IsVisible from 'react-is-visible';
-import { transitionHorizontal } from '../util/TransitionHorizontal';
-import portfolio from '../images/app/briefcase.svg';
 
 const Experience = () => {
   const experiences = [
@@ -65,21 +63,17 @@ const Experience = () => {
   ];
 
   return (
-    <IsVisible once>
-      {(isVisible) => (
-        <div className="experience" style={transitionHorizontal(isVisible, -300)}>
-          <Header
-            title={'Experience'}
-            icon={<img src={portfolio} alt="" height="56em" width="auto" />}
-            xVal={6}
-            yVal={8}
-          />
-          {experiences.map((exp) => (
-            <SingleExperience props={exp} key={exp.company} />
-          ))}
-        </div>
-      )}
-    </IsVisible>
+    <div className="experience">
+      <Header
+        title={'Experience'}
+        icon={<img src={portfolio} alt="" height="56em" width="auto" />}
+        xVal={6}
+        yVal={8}
+      />
+      {experiences.map((exp) => (
+        <SingleExperience props={exp} key={exp.company} />
+      ))}
+    </div>
   );
 };
 

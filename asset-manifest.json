@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/me/static/css/main.97622487.chunk.css",
-    "main.js": "/me/static/js/main.c89581f4.chunk.js",
-    "main.js.map": "/me/static/js/main.c89581f4.chunk.js.map",
+    "main.js": "/me/static/js/main.894df943.chunk.js",
+    "main.js.map": "/me/static/js/main.894df943.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.693c6587.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.693c6587.js.map",
     "static/css/2.d6008dad.chunk.css": "/me/static/css/2.d6008dad.chunk.css",
@@ -41,6 +41,7 @@
     "static/media/mysql.43de11b6.svg": "/me/static/media/mysql.43de11b6.svg",
     "static/media/nestjs.9c70b41c.svg": "/me/static/media/nestjs.9c70b41c.svg",
     "static/media/nodejs.615ffbea.svg": "/me/static/media/nodejs.615ffbea.svg",
+    "static/media/nusforums.9f15b17d.gif": "/me/static/media/nusforums.9f15b17d.gif",
     "static/media/peerprep.aeee3f00.gif": "/me/static/media/peerprep.aeee3f00.gif",
     "static/media/personal.0fde7782.svg": "/me/static/media/personal.0fde7782.svg",
     "static/media/postgresql.b215fdee.svg": "/me/static/media/postgresql.b215fdee.svg",
@@ -61,6 +62,6 @@
     "static/css/2.d6008dad.chunk.css",
     "static/js/2.8efdb0c6.chunk.js",
     "static/css/main.97622487.chunk.css",
-    "static/js/main.c89581f4.chunk.js"
+    "static/js/main.894df943.chunk.js"
   ]
 }

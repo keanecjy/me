@@ -5,6 +5,7 @@ import code from '../images/app/skills.svg';
 import {
   dockerIcon,
   expressIcon,
+  firebaseIcon,
   goIcon,
   groovyIcon,
   grpcIcon,
@@ -12,11 +13,12 @@ import {
   jsIcon,
   kafkaIcon,
   mongodbIcon,
-  nestIcon,
   nodeJsIcon,
   postgreSQLIcon,
   pythonIcon,
   reactIcon,
+  redisIcon,
+  reduxIcon,
   springIcon,
   tsIcon,
 } from '../util/TechStack';
@@ -37,11 +39,13 @@ const Skills = () => {
   const otherSkills = [
     tsIcon,
     reactIcon,
-    pythonIcon,
+    reduxIcon,
     kafkaIcon,
+    pythonIcon,
     dockerIcon,
     expressIcon,
-    nestIcon,
+    redisIcon,
+    firebaseIcon,
     mongodbIcon,
   ];
 

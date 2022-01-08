@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/me/static/css/main.97622487.chunk.css",
-    "main.js": "/me/static/js/main.4af8342e.chunk.js",
-    "main.js.map": "/me/static/js/main.4af8342e.chunk.js.map",
+    "main.js": "/me/static/js/main.2371021b.chunk.js",
+    "main.js.map": "/me/static/js/main.2371021b.chunk.js.map",
     "runtime-main.js": "/me/static/js/runtime-main.693c6587.js",
     "runtime-main.js.map": "/me/static/js/runtime-main.693c6587.js.map",
     "static/css/2.d6008dad.chunk.css": "/me/static/css/2.d6008dad.chunk.css",
@@ -41,7 +41,7 @@
     "static/media/mysql.43de11b6.svg": "/me/static/media/mysql.43de11b6.svg",
     "static/media/nestjs.9c70b41c.svg": "/me/static/media/nestjs.9c70b41c.svg",
     "static/media/nodejs.615ffbea.svg": "/me/static/media/nodejs.615ffbea.svg",
-    "static/media/nusforums.c0d710f3.gif": "/me/static/media/nusforums.c0d710f3.gif",
+    "static/media/nusforums.eba3ee4d.gif": "/me/static/media/nusforums.eba3ee4d.gif",
     "static/media/peerprep.832c072b.gif": "/me/static/media/peerprep.832c072b.gif",
     "static/media/personal.0fde7782.svg": "/me/static/media/personal.0fde7782.svg",
     "static/media/postgresql.b215fdee.svg": "/me/static/media/postgresql.b215fdee.svg",
@@ -62,6 +62,6 @@
     "static/css/2.d6008dad.chunk.css",
     "static/js/2.8efdb0c6.chunk.js",
     "static/css/main.97622487.chunk.css",
-    "static/js/main.4af8342e.chunk.js"
+    "static/js/main.2371021b.chunk.js"
   ]
 }

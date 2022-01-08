@@ -28,6 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "clean": "rm -rf node_modules",
     "pretty": "prettier --write \"./**/*.{js,jsx,json,css}\"",
     "css": "npx stylelint \"src/**/*.css\""
   },

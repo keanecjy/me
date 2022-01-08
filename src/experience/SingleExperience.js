@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import './styles.css';
-import '../projects/styles.css';
 import { StateContext } from '../App';
 import IconList from '../component/iconList/IconList';
+import '../projects/styles.css';
+import './styles.css';
 
 const SingleExperience = ({ props }) => {
   const { position, company, companyLink, period, desc, techStack, marginTop } = props;

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
+import { StateContext } from '../App';
 import IconList from '../component/iconList/IconList';
 import './styles.css';
-import { StateContext } from '../App';
 
 const SingleProject = ({ props }) => {
   const { name, description, appLink, gif, codeLink, techStack, marginTop } = props;

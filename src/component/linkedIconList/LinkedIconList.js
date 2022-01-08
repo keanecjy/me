@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import LinkedIcon from '../linkedIcon/LinkedIcon';
-import './styles.css';
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/all';
 import { StateContext } from '../../App';
+import LinkedIcon from '../linkedIcon/LinkedIcon';
+import './styles.css';
 
 const LinkedIconList = () => {
   const { isLight } = useContext(StateContext);

@@ -1,7 +1,7 @@
-import React from 'react';
 import emailjs from 'emailjs-com';
-import { Form } from 'react-bootstrap';
 import { Formik } from 'formik';
+import React from 'react';
+import { Form } from 'react-bootstrap';
 import './styles.css';
 
 const EmailForm = () => {

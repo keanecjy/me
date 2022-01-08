@@ -1,9 +1,9 @@
 import React from 'react';
-import './styles.css';
-import EmailForm from './EmailForm';
-import End from './End';
 import Header from '../component/header/header';
 import rocket from '../images/app/rocket.svg';
+import EmailForm from './EmailForm';
+import End from './End';
+import './styles.css';
 
 const Contact = () => {
   return (

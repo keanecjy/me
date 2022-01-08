@@ -1,17 +1,17 @@
 import React from 'react';
-import './App.css';
-import NavigationMenu from './navigation/NavigationMenu';
+import { ThemeProvider } from 'styled-components';
 import About from './about/About';
+import './App.css';
+import ScrollTopArrow from './component/scrolltoparrow/ScrollTopArrow';
+import Contact from './contact/Contact';
+import Experience from './experience/Experience';
+import { GlobalStyles } from './global';
+import Intro from './intro/Intro';
+import NavigationMenu from './navigation/NavigationMenu';
 import Projects from './projects/Projects';
 import Skills from './skills/Skills';
-import Contact from './contact/Contact';
-import Intro from './intro/Intro';
-import ScrollTopArrow from './component/scrolltoparrow/ScrollTopArrow';
-import { ThemeProvider } from 'styled-components';
 import { darkTheme, lightTheme } from './theme';
-import { GlobalStyles } from './global';
 import { useDarkMode } from './useDarkMode';
-import Experience from './experience/Experience';
 
 export const StateContext = React.createContext({});
 

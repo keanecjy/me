@@ -20,7 +20,7 @@ export const GlobalStyles = createGlobalStyle`
     font-size: 20px;
     font-weight: 500;
     width: 100vw;
-    transition: all 0.25s linear;
+    transition: all 0.4s ease-in-out
   }
   
   .app h1 {

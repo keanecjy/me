@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import './styles.css';
 import { OverlayTrigger } from 'react-bootstrap';
 import { StateContext } from '../../App';
+import './styles.css';
 
 const Icon = ({ icon, name, height }) => {
   const { isLight } = useContext(StateContext);

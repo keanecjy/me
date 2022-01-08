@@ -1,6 +1,11 @@
 import React from 'react';
-import './styles.css';
-import SingleProject from './SingleProject';
+import Header from '../component/header/header';
+import code from '../images/app/code.svg';
+import HelloWorldGif from '../images/projects/helloworld.gif';
+import InternHunterGif from '../images/projects/internhunter.gif';
+import ModuleFutureGif from '../images/projects/modulefuture.gif';
+import PeerPrepGif from '../images/projects/peerprep.gif';
+import SortAlgoGif from '../images/projects/sort-algo.gif';
 import {
   adobeXdIcon,
   cssIcon,
@@ -21,13 +26,8 @@ import {
   socketIcon,
   tsIcon,
 } from '../util/TechStack';
-import ModuleFutureGif from '../images/projects/modulefuture.gif';
-import SortAlgoGif from '../images/projects/sort-algo.gif';
-import InternHunterGif from '../images/projects/internhunter.gif';
-import HelloWorldGif from '../images/projects/helloworld.gif';
-import PeerPrepGif from '../images/projects/peerprep.gif';
-import Header from '../component/header/header';
-import code from '../images/app/code.svg';
+import SingleProject from './SingleProject';
+import './styles.css';
 
 const Projects = () => {
   const projects = [

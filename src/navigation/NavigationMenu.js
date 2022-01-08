@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import './styles.css';
-import Toggle from '../darkMode/toggleButton';
 import { AiOutlineMenu } from 'react-icons/all';
+import Toggle from '../darkMode/toggleButton';
+import './styles.css';
 
 const NavigationMenu = ({ theme, toggleTheme }) => {
   const [expanded, setExpanded] = useState(false);

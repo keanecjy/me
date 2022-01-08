@@ -1,8 +1,8 @@
 import React from 'react';
-import ToggleContainer from './toggleButton.styled';
 import { ReactComponent as MoonIcon } from '../images/app/moon.svg';
 import { ReactComponent as SunIcon } from '../images/app/sun.svg';
 import './styles.css';
+import ToggleContainer from './toggleButton.styled';
 
 const Toggle = ({ theme, toggleTheme }) => {
   const isLight = theme === 'light';

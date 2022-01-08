@@ -4,6 +4,7 @@ import code from '../images/app/code.svg';
 import HelloWorldGif from '../images/projects/helloworld.gif';
 import InternHunterGif from '../images/projects/internhunter.gif';
 import ModuleFutureGif from '../images/projects/modulefuture.gif';
+import NUSForumsGif from '../images/projects/nusforums.gif';
 import PeerPrepGif from '../images/projects/peerprep.gif';
 import SortAlgoGif from '../images/projects/sort-algo.gif';
 import {
@@ -44,6 +45,20 @@ const Projects = () => {
       codeLink: 'https://github.com/keanecjy/PeerPrep',
       techStack: [reactIcon, reduxIcon, tsIcon, nestIcon, redisIcon, postgreSQLIcon, socketIcon],
       marginTop: 40,
+    },
+    {
+      gif: NUSForumsGif,
+      name: 'NUSForums',
+      description: `
+      NUSForums is a NUS-community web-based forum. It organises NUS modules into forums whereby
+      students and teaching staff can post and answer questions anonymously. The project was inspired
+      from the lack of an intuitive, standardised platform for NUS students to freely ask module-specific
+      questions. 
+      `,
+      appLink: 'https://nusforums-2a1c8.web.app/',
+      codeLink: 'https://github.com/keanecjy/nusforums',
+      techStack: [reactIcon, reduxIcon, tsIcon, firebaseIcon, nodeJsIcon],
+      marginTop: 90,
     },
     {
       gif: HelloWorldGif,

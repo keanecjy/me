@@ -39,7 +39,7 @@ textarea:focus {
   border-color: white;
   box-shadow: 0 0 5px 1px #82b9f1;
   outline: none;
-  transition: 0.25s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .message-box {

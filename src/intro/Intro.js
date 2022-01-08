@@ -1,9 +1,7 @@
 import React from 'react';
-import './styles.css';
-import '../projects/styles.css';
 import LinkedIconList from '../component/linkedIconList/LinkedIconList';
-import IsVisible from 'react-is-visible';
-import { transitionHorizontal } from '../util/TransitionHorizontal';
+import '../projects/styles.css';
+import './styles.css';
 
 const Intro = () => {
   const INTRO =
@@ -13,27 +11,23 @@ const Intro = () => {
   const COMPANY = 'NUS.';
 
   return (
-    <IsVisible once>
-      {(isVisible) => (
-        <div className="top" style={transitionHorizontal(isVisible, -300)}>
-          <p className="wave-icon">👋</p>
-          <p className="intro">{INTRO}</p>
-          <p className="school">
-            {CURRENT_JOB}
-            <a
-              href={COMPANY_LINK}
-              className="app-link"
-              style={{ fontWeight: 600 }}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {COMPANY}
-            </a>
-          </p>
-          <LinkedIconList />
-        </div>
-      )}
-    </IsVisible>
+    <div className="top">
+      <p className="wave-icon">👋</p>
+      <p className="intro">{INTRO}</p>
+      <p className="school">
+        {CURRENT_JOB}
+        <a
+          href={COMPANY_LINK}
+          className="app-link"
+          style={{ fontWeight: 600 }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {COMPANY}
+        </a>
+      </p>
+      <LinkedIconList />
+    </div>
   );
 };
 

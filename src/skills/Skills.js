@@ -1,6 +1,7 @@
 import React from 'react';
-import './styles.css';
+import Header from '../component/header/header';
 import IconList from '../component/iconList/IconList';
+import code from '../images/app/skills.svg';
 import {
   dockerIcon,
   expressIcon,
@@ -19,10 +20,7 @@ import {
   springIcon,
   tsIcon,
 } from '../util/TechStack';
-import Header from '../component/header/header';
-import IsVisible from 'react-is-visible';
-import { transitionHorizontal } from '../util/TransitionHorizontal';
-import code from '../images/app/skills.svg';
+import './styles.css';
 
 const Skills = () => {
   const mainSkills = [
@@ -48,17 +46,13 @@ const Skills = () => {
   ];
 
   return (
-    <IsVisible once>
-      {(isVisible) => (
-        <div className="skills" style={transitionHorizontal(isVisible, -300)}>
-          <Header title={'Skills'} icon={<img src={code} alt="" height="54em" width="auto" />} />
-          <p>I am decent in</p>
-          <IconList icons={mainSkills} />
-          <p>I have dabbled with</p>
-          <IconList icons={otherSkills} />
-        </div>
-      )}
-    </IsVisible>
+    <div className="skills">
+      <Header title={'Skills'} icon={<img src={code} alt="" height="54em" width="auto" />} />
+      <p>I am decent in</p>
+      <IconList icons={mainSkills} />
+      <p>I have dabbled with</p>
+      <IconList icons={otherSkills} />
+    </div>
   );
 };
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import Header from '../component/header/header';
 import code from '../images/app/code.svg';
 import HelloWorldGif from '../images/projects/helloworld.gif';
@@ -12,6 +11,7 @@ import {
   adobeXdIcon,
   cssIcon,
   expressIcon,
+  figmaIcon,
   firebaseIcon,
   gradleIcon,
   htmlIcon,
@@ -44,7 +44,7 @@ const Projects = () => {
       `,
       appLink: 'https://github.com/keanecjy/TourMate',
       codeLink: 'https://github.com/keanecjy/TourMate',
-      techStack: [swiftIcon, firebaseIcon, adobeXdIcon],
+      techStack: [swiftIcon, firebaseIcon, figmaIcon],
       marginTop: 40,
     },
     {

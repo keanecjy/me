@@ -44,7 +44,7 @@ const Experience = () => {
       company: <CarousellLogo />,
       period: 'Aug 2021 - Dec 2021',
       desc: [
-        'Ported existing services onto isolated on-demand feature environments to increase testability and ensure safe and independent deployments',
+        'Ported existing services onto isolated On Demand environments to increase testability and ensure safe and independent deployments',
         'Migrated REST clients to gRPC clients to enhance performance and scalability of internal backend API endpoints',
         'Developed and optimized APIs and services using Golang and gRPC across a distributed microservice architecture',
       ],

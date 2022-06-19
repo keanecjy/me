@@ -19,6 +19,7 @@ import {
   redisIcon,
   reduxIcon,
   springIcon,
+  swiftIcon,
 } from '../util/TechStack';
 import './styles.css';
 
@@ -30,7 +31,7 @@ const Skills = () => {
     postgreSQLIcon,
     reactIcon,
     jsIcon,
-    nodeJsIcon,
+    swiftIcon,
     firebaseIcon,
   ];
 

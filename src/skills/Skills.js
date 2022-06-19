@@ -3,6 +3,7 @@ import IconList from '../component/iconList/IconList';
 import code from '../images/app/skills.svg';
 import {
   dockerIcon,
+  entIcon,
   firebaseIcon,
   flowIcon,
   goIcon,
@@ -38,6 +39,7 @@ const Skills = () => {
     hackIcon,
     graphQLIcon,
     reduxIcon,
+    entIcon,
     goIcon,
     pythonIcon,
     dockerIcon,

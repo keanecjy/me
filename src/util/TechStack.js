@@ -1,6 +1,7 @@
 import adobexd from '../images/skills/adobexd.svg';
 import css from '../images/skills/css.svg';
 import docker from '../images/skills/docker.svg';
+import ent from '../images/skills/ent.png';
 import express from '../images/skills/express.svg';
 import figma from '../images/skills/figma.svg';
 import firebase from '../images/skills/firebase.svg';
@@ -67,3 +68,4 @@ export const hackIcon = { icon: hack, name: 'Hack', height: '2em' };
 export const swiftIcon = { icon: swift, name: 'Swift', height: '2.5em' };
 export const relayIcon = { icon: relay, name: 'Relay', height: '2.5em' };
 export const graphQLIcon = { icon: graphQL, name: 'GraphQL' };
+export const entIcon = { icon: ent, name: 'Ent', height: '1.1em' };

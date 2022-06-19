@@ -1,10 +1,10 @@
-import React from 'react';
 import Header from '../component/header/header';
 import portfolio from '../images/app/briefcase.svg';
-import { CarousellLogo, MetaLogo, WiseLogo, SEEDULogo } from '../util/CompanyLogos';
+import { CarousellLogo, MetaLogo, SEEDULogo, WiseLogo } from '../util/CompanyLogos';
 import {
   cssIcon,
   dockerIcon,
+  entIcon,
   flowIcon,
   gitIcon,
   goIcon,
@@ -19,7 +19,7 @@ import {
   postgreSQLIcon,
   reactIcon,
   relayIcon,
-  springIcon,
+  springIcon
 } from '../util/TechStack';
 import SingleExperience from './SingleExperience';
 import './styles.css';
@@ -35,7 +35,7 @@ const Experience = () => {
         'Developed reusable user interfaces and data models to support the collaboration tool',
         'Led cross-functional efforts with XFN teams to identify and iterate on features and requirements',
       ],
-      techStack: [reactIcon, flowIcon, graphQLIcon, relayIcon, hackIcon],
+      techStack: [reactIcon, flowIcon, graphQLIcon, relayIcon, hackIcon, entIcon],
       marginTop: 40,
     },
     {

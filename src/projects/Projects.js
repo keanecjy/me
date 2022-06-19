@@ -27,7 +27,7 @@ import {
   reduxIcon,
   socketIcon,
   swiftIcon,
-  tsIcon,
+  tsIcon
 } from '../util/TechStack';
 import SingleProject from './SingleProject';
 import './styles.css';

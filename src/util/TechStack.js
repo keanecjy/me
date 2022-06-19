@@ -22,7 +22,6 @@ import mongodb from '../images/skills/mongodb.svg';
 import mySQL from '../images/skills/mysql.svg';
 import nestjs from '../images/skills/nestjs.svg';
 import nodejs from '../images/skills/nodejs.svg';
-import php from '../images/skills/php.svg';
 import postgreSQL from '../images/skills/postgresql.svg';
 import python from '../images/skills/python.svg';
 import react from '../images/skills/react.svg';

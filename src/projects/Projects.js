@@ -39,7 +39,8 @@ const Projects = () => {
       name: 'TourMate',
       description: `
       TourMate is an all-in-one collaborative trip management application that aims to make
-      planning group trips fun and effortless!
+      planning group trips fun and effortless. It provides a collaborative planner which supports
+      versioning of plans, voting, comments, recommendations, and more!
       `,
       appLink: 'https://github.com/keanecjy/TourMate',
       codeLink: 'https://github.com/keanecjy/TourMate',
@@ -58,7 +59,7 @@ const Projects = () => {
       appLink: 'https://github.com/keanecjy/PeerPrep',
       codeLink: 'https://github.com/keanecjy/PeerPrep',
       techStack: [reactIcon, reduxIcon, tsIcon, nestIcon, redisIcon, postgreSQLIcon, socketIcon],
-      marginTop: 40,
+      marginTop: 90,
     },
     {
       gif: NUSForumsGif,

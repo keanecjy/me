@@ -5,7 +5,7 @@ import '../projects/styles.css';
 import './styles.css';
 
 const SingleExperience = ({ props }) => {
-  const { position, company, companyLink, period, desc, techStack, marginTop } = props;
+  const { position, company, period, desc, techStack, marginTop } = props;
   const { isLight } = useContext(StateContext);
 
   const grey = {
@@ -17,9 +17,7 @@ const SingleExperience = ({ props }) => {
     <div style={{ marginTop: marginTop }}>
       <div className="job-title">
         {position}&nbsp;@&nbsp;&nbsp;
-        <a href={companyLink} target="_blank" rel="noopener noreferrer">
-          {company}
-        </a>
+        {company}
       </div>
       <p style={grey}>{period}</p>
       {desc.map((d) => (

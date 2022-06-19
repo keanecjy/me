@@ -30,7 +30,6 @@ const Experience = () => {
     {
       position: 'Enterprise Software Engineer Intern',
       company: <MetaLogo />,
-      companyLink: 'https://www.metacareers.com/',
       period: 'May 2022 - Aug 2022',
       desc: [
         'Spearheaded the introduction of a collaboration tool used by multiple teams worldwide',
@@ -43,7 +42,6 @@ const Experience = () => {
     {
       position: 'Software Engineer Intern',
       company: <CarousellLogo />,
-      companyLink: 'https://careers.carousell.com/',
       period: 'Aug 2021 - Dec 2021',
       desc: [
         'Ported existing services onto isolated on-demand feature environments to increase testability and ensure safe and independent deployments',
@@ -56,7 +54,6 @@ const Experience = () => {
     {
       position: 'Software Engineer Intern',
       company: <WiseLogo />,
-      companyLink: 'https://wise.com/',
       period: 'May 2021 - Aug 2021',
       desc: [
         'Spearheaded the launch of a new smart replacement feature that allows users to replace their debit cards for free',
@@ -69,7 +66,6 @@ const Experience = () => {
     {
       position: 'Software Engineer',
       company: <SEEDULogo />,
-      companyLink: 'https://se-education.org/',
       period: 'Jan 2021 - May 2021',
       desc: [
         'Collaborated with a team of 6 developers to maintain and improve multiple open-source software used by 800 students / day',

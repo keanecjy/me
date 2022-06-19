@@ -16,7 +16,6 @@ import {
   javaFxIcon,
   javaIcon,
   mySQLIcon,
-  phpIcon,
   postgreSQLIcon,
   reactIcon,
   relayIcon,
@@ -36,7 +35,7 @@ const Experience = () => {
         'Developed reusable user interfaces and data models to support the collaboration tool',
         'Led cross-functional efforts with XFN teams to identify and iterate on features and requirements',
       ],
-      techStack: [reactIcon, flowIcon, graphQLIcon, relayIcon, hackIcon, phpIcon],
+      techStack: [reactIcon, flowIcon, graphQLIcon, relayIcon, hackIcon],
       marginTop: 40,
     },
     {

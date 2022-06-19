@@ -65,7 +65,6 @@ export const reduxIcon = { icon: redux, name: 'Redux' };
 export const redisIcon = { icon: redis, name: 'Redis' };
 export const flowIcon = { icon: flow, name: 'Flow' };
 export const hackIcon = { icon: hack, name: 'Hack', height: '2em' };
-export const phpIcon = { icon: php, name: 'PHP', height: '2em' };
 export const swiftIcon = { icon: swift, name: 'Swift', height: '2.5em' };
 export const relayIcon = { icon: relay, name: 'Relay', height: '2.5em' };
 export const graphQLIcon = { icon: graphQL, name: 'GraphQL' };

@@ -9,7 +9,6 @@
 }
 
 .top {
-  font-family: 'Open Sans', sans-serif;
   margin-bottom: -130px;
   margin-top: 50px;
   opacity: 1;
@@ -28,11 +27,12 @@
   }
 }
 
-.school {
+.job {
+  font-size: 1.1em;
   margin-bottom: 40px;
 }
 
-.school * {
+.job * {
   display: inline;
 }
 

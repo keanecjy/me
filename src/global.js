@@ -17,7 +17,7 @@ ${'' /* TODO: TEST OUT MONSTERTAT theme */}
   body {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
-    font-family: Nunito, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     font-size: 20px;
     font-weight: 500;
     width: 100vw;

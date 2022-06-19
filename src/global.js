@@ -13,6 +13,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   
+${'' /* TODO: TEST OUT MONSTERTAT theme */}
   body {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};

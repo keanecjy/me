@@ -16,8 +16,8 @@ const SingleExperience = ({ props }) => {
   return (
     <div style={{ marginTop: marginTop }}>
       <div className="job-title">
-        {position}&nbsp;@&nbsp;
-        <a href={companyLink} className="app-link" target="_blank" rel="noopener noreferrer">
+        {position}&nbsp;@&nbsp;&nbsp;
+        <a href={companyLink} target="_blank" rel="noopener noreferrer">
           {company}
         </a>
       </div>

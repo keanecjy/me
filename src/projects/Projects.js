@@ -7,6 +7,7 @@ import ModuleFutureGif from '../images/projects/modulefuture.gif';
 import NUSForumsGif from '../images/projects/nusforums.gif';
 import PeerPrepGif from '../images/projects/peerprep.gif';
 import SortAlgoGif from '../images/projects/sort-algo.gif';
+import TourMateImage from '../images/projects/tourmate2.png';
 import {
   adobeXdIcon,
   cssIcon,
@@ -25,6 +26,7 @@ import {
   redisIcon,
   reduxIcon,
   socketIcon,
+  swiftIcon,
   tsIcon,
 } from '../util/TechStack';
 import SingleProject from './SingleProject';
@@ -32,6 +34,18 @@ import './styles.css';
 
 const Projects = () => {
   const projects = [
+    {
+      gif: TourMateImage,
+      name: 'TourMate',
+      description: `
+      TourMate is an all-in-one collaborative trip management application that aims to make
+      planning group trips fun and effortless!
+      `,
+      appLink: 'https://github.com/keanecjy/TourMate',
+      codeLink: 'https://github.com/keanecjy/TourMate',
+      techStack: [swiftIcon, firebaseIcon, adobeXdIcon],
+      marginTop: 40,
+    },
     {
       gif: PeerPrepGif,
       name: 'PeerPrep',

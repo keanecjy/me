@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../component/header/header';
 import portfolio from '../images/app/briefcase.svg';
-import { CarousellLogo, MetaLogo, WiseLogo } from '../util/CompanyLogos';
+import { CarousellLogo, MetaLogo, WiseLogo, SEEDULogo } from '../util/CompanyLogos';
 import {
   cssIcon,
   dockerIcon,
@@ -68,7 +68,7 @@ const Experience = () => {
     },
     {
       position: 'Software Engineer',
-      company: 'SE-EDU',
+      company: <SEEDULogo />,
       companyLink: 'https://se-education.org/',
       period: 'Jan 2021 - May 2021',
       desc: [

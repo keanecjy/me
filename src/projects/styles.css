@@ -15,8 +15,6 @@
 
 .image-style {
   align-self: center;
-  width: 100%;
-  height: auto;
   border-radius: 40px;
   box-shadow: 0 0 5px 1px #7a7a7a;
 }

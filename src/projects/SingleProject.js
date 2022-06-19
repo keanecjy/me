@@ -10,7 +10,7 @@ const SingleProject = ({ props }) => {
   return (
     <div className="single-project" style={{ marginTop: marginTop }}>
       <div className="project-image">
-        <img src={gif} alt={name} className="image-style" />
+        <img src={gif} alt={name} className="image-style" width="100%" height="auto" />
       </div>
       <div className="width-100">
         <h2>{name}</h2>

@@ -2,7 +2,6 @@ import Header from '../component/header/header';
 import IconList from '../component/iconList/IconList';
 import code from '../images/app/skills.svg';
 import {
-  dockerIcon,
   entIcon,
   firebaseIcon,
   flowIcon,
@@ -19,30 +18,31 @@ import {
   reduxIcon,
   springIcon,
   swiftIcon,
+  tsIcon,
 } from '../util/TechStack';
 import './styles.css';
 
 const Skills = () => {
   const mainSkills = [
-    javaIcon,
-    springIcon,
-    grpcIcon,
-    postgreSQLIcon,
     reactIcon,
     jsIcon,
+    javaIcon,
+    grpcIcon,
+    hackIcon,
+    postgreSQLIcon,
     swiftIcon,
     firebaseIcon,
   ];
 
   const otherSkills = [
     flowIcon,
-    hackIcon,
+    tsIcon,
     graphQLIcon,
     reduxIcon,
     entIcon,
     goIcon,
+    springIcon,
     pythonIcon,
-    dockerIcon,
     redisIcon,
   ];
 

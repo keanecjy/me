@@ -23,9 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "if-node-version '>= 17' && react-scripts --openssl-legacy-provider build || react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "clean": "rm -rf node_modules",
     "pretty": "prettier --write \"./**/*.{js,jsx,json,css}\"",

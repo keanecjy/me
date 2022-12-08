@@ -14,7 +14,7 @@ const About = () => {
       <p>
         I am a final year Computer Science undergraduate at the National University of Singapore. I
         enjoy learning and exploring new things in the field of Computer Science and Software
-        Engineering. More recently, I have been learning fullstack development.
+        Engineering. My focus areas are in Software Engineering and Database Systems.
       </p>
     </div>
   );

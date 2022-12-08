@@ -42,18 +42,6 @@ const Experience = () => {
     },
     {
       position: 'Software Engineer Intern',
-      company: <CarousellLogo />,
-      period: 'Aug 2021 - Dec 2021',
-      desc: [
-        'Ported existing services onto isolated On Demand environments to increase testability and ensure safe and independent deployments',
-        'Migrated REST clients to gRPC clients to enhance performance and scalability of internal backend API endpoints',
-        'Developed and optimized APIs and services using Golang and gRPC across a distributed microservice architecture',
-      ],
-      techStack: [goIcon, grpcIcon, mySQLIcon, dockerIcon],
-      marginTop: 90,
-    },
-    {
-      position: 'Software Engineer Intern',
       company: <WiseLogo />,
       period: 'May 2021 - Aug 2021',
       desc: [
@@ -62,6 +50,18 @@ const Experience = () => {
         'Redesigned and developed gRPC APIs across several microservices to remove dependency on middle service layer and decrease latency of API calls',
       ],
       techStack: [javaIcon, springIcon, grpcIcon, postgreSQLIcon, groovyIcon, dockerIcon],
+      marginTop: 90,
+    },
+    {
+      position: 'Software Engineer Intern',
+      company: <CarousellLogo />,
+      period: 'Aug 2021 - Dec 2021',
+      desc: [
+        'Led the migration of multiple REST clients to gRPC clients to enhance performance and scalability of internal backend API endpoints',
+        'Ported existing services onto isolated On Demand environments to increase testability and ensure safe and independent deployments',
+        'Leveraged knowledge in Factory and Command software design patterns to improve code design in multiple Golang services',
+      ],
+      techStack: [goIcon, grpcIcon, mySQLIcon],
       marginTop: 90,
     },
     {

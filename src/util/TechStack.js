@@ -33,7 +33,14 @@ import socketIo from '../images/skills/socketio.svg';
 import spring from '../images/skills/spring.svg';
 import swift from '../images/skills/swift.png';
 import typescript from '../images/skills/typescript.svg';
+import bootstrap from '../images/skills/bootstrap.svg';
+import nextjs from '../images/skills/nextjs.svg';
+import trpc from '../images/skills/trpc.svg';
+import prisma from '../images/skills/prisma.svg';
+import tailwind from '../images/skills/tailwind.svg';
+import nextauth from '../images/skills/nextauth.png';
 
+// DEFAULT HEIGHT = 1.9em
 export const javaIcon = { icon: java, name: 'Java' };
 export const springIcon = { icon: spring, name: 'Spring Boot' };
 export const grpcIcon = { icon: grpc, name: 'gRPC', height: '1.5em' };
@@ -69,3 +76,10 @@ export const swiftIcon = { icon: swift, name: 'Swift', height: '2.5em' };
 export const relayIcon = { icon: relay, name: 'Relay', height: '2.5em' };
 export const graphQLIcon = { icon: graphQL, name: 'GraphQL' };
 export const entIcon = { icon: ent, name: 'Ent', height: '1.1em' };
+export const bootstrapIcon = { icon: bootstrap, name: 'Bootstrap CSS' };
+export const nextJsIcon = { icon: nextjs, name: 'Next.js'};
+export const trpcIcon = { icon: trpc, name: 'tRPC', height: '2em' };
+export const prismaIcon = { icon: prisma, name: 'Prisma' };
+export const tailwindIcon = { icon: tailwind, name: 'Tailwind CSS' };
+export const nextauthIcon = { icon: nextauth, name: 'NextAuth.js' };
+

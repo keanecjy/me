@@ -12,38 +12,40 @@ import {
   javaIcon,
   jsIcon,
   postgreSQLIcon,
+  prismaIcon,
   pythonIcon,
   reactIcon,
   redisIcon,
   reduxIcon,
   springIcon,
   swiftIcon,
-  tsIcon,
+  tsIcon
 } from '../util/TechStack';
 import './styles.css';
 
 const Skills = () => {
   const mainSkills = [
-    reactIcon,
-    jsIcon,
     javaIcon,
-    grpcIcon,
-    hackIcon,
-    postgreSQLIcon,
-    swiftIcon,
-    firebaseIcon,
-  ];
-
-  const otherSkills = [
-    flowIcon,
+    jsIcon,
     tsIcon,
+    reactIcon,
     graphQLIcon,
+    grpcIcon,
+    postgreSQLIcon,
+    firebaseIcon,
+    springIcon,
+  ];
+  
+  const otherSkills = [
+    hackIcon,
+    flowIcon,
     reduxIcon,
     entIcon,
     goIcon,
-    springIcon,
     pythonIcon,
+    prismaIcon,
     redisIcon,
+    swiftIcon,
   ];
 
   return (

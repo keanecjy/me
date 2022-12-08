@@ -33,7 +33,7 @@ import socketIo from '../images/skills/socketio.svg';
 import spring from '../images/skills/spring.svg';
 import swift from '../images/skills/swift.png';
 import typescript from '../images/skills/typescript.svg';
-import bootstrap from '../images/skills/bootstrap.svg';
+import bootstrap from '../images/skills/bootstrap.png';
 import nextjs from '../images/skills/nextjs.svg';
 import trpc from '../images/skills/trpc.svg';
 import prisma from '../images/skills/prisma.svg';

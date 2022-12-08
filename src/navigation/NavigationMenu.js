@@ -45,7 +45,7 @@ const NavigationMenu = ({ theme, toggleTheme }) => {
             Contact me
           </Nav.Link>
         </Nav>
-        <Toggle theme={theme} toggleTheme={toggleTheme} />
+        {/* <Toggle theme={theme} toggleTheme={toggleTheme} /> */}
       </Navbar.Collapse>
     </Navbar>
   );

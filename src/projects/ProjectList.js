@@ -33,10 +33,10 @@ import {
   trpcIcon,
   tsIcon,
 } from '../util/TechStack';
-import SingleProject from './SingleProject';
+import Project from './ProjectItem';
 import './styles.css';
 
-const Projects = () => {
+const ProjectList = () => {
   const projects = [
     {
       gif: ResumeReviewGif,
@@ -157,10 +157,10 @@ const Projects = () => {
     <div className="projects">
       <Header title={'Projects'} icon={<img src={code} alt="" height="54em" width="auto" />} />
       {projects.map((proj) => (
-        <SingleProject props={proj} key={proj.name} />
+        <Project props={proj} key={proj.name} />
       ))}
     </div>
   );
 };
 
-export default Projects;
+export default ProjectList;

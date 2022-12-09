@@ -8,7 +8,7 @@ import Experience from './experience/Experience';
 import { GlobalStyles } from './global';
 import Intro from './intro/Intro';
 import NavigationMenu from './navigation/NavigationMenu';
-import Projects from './projects/Projects';
+import ProjectList from './projects/ProjectList';
 import Skills from './skills/Skills';
 import { darkTheme, lightTheme } from './theme';
 import { useDarkMode } from './useDarkMode';
@@ -45,7 +45,7 @@ function App() {
             <div className="empty-space" id="experience" />
             <Experience />
             <div className="empty-space" id="projects" />
-            <Projects />
+            <ProjectList />
             <div className="empty-space" id="contact" />
             <Contact />
           </div>

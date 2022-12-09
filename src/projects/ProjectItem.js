@@ -3,7 +3,7 @@ import { StateContext } from '../App';
 import IconList from '../component/iconList/IconList';
 import './styles.css';
 
-const SingleProject = ({ props }) => {
+const Project = ({ props }) => {
   const { name, description, appLink, gif, codeLink, techStack, marginTop } = props;
   const { isLight } = useContext(StateContext);
 
@@ -42,4 +42,4 @@ const SingleProject = ({ props }) => {
     </div>
   );
 };
-export default SingleProject;
+export default Project;

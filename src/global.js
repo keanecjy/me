@@ -34,6 +34,7 @@ ${'' /* TODO: TEST OUT MONSTERTAT theme */}
     font-weight: bold;
     margin: 1.4em 0 0.8em 0;
     text-decoration: underline;
+    text-underline-offset: 6px;
   }
   
   .app h3 {

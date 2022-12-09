@@ -23,7 +23,11 @@ const Icon = ({ icon, name, height }) => {
       <img
         alt={name}
         src={icon}
-        style={{ height: height || '1.9em', width: 'auto' }}
+        style={{
+          height: height || '1.9em',
+          width: 'auto',
+          filter: isLight ? '' : 'invert(75%) sepia(100%) saturate(50%)',
+        }}
         className="icon"
       />
     </OverlayTrigger>

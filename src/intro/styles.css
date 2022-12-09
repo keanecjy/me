@@ -28,12 +28,10 @@
 }
 
 .job {
+  display: flex;
   font-size: 1.2em;
   margin-bottom: 40px;
-}
-
-.job * {
-  display: inline;
+  align-items: center;
 }
 
 @media only screen and (min-width: 1600px) {

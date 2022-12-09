@@ -5,7 +5,13 @@ import wiseIcon from '../images/company/wise.svg';
 
 export const MetaLogo = () => (
   <a href="https://www.metacareers.com/" target="_blank" rel="noopener noreferrer">
-    <img src={metaIcon} alt="loading..." height="28em" width="auto" />
+    <img
+      style={{ marginBottom: '4px' }}
+      src={metaIcon}
+      alt="loading..."
+      height="26em"
+      width="auto"
+    />
   </a>
 );
 export const CarousellLogo = () => (

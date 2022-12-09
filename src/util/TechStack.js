@@ -77,9 +77,8 @@ export const relayIcon = { icon: relay, name: 'Relay', height: '2.5em' };
 export const graphQLIcon = { icon: graphQL, name: 'GraphQL' };
 export const entIcon = { icon: ent, name: 'Ent', height: '1.1em' };
 export const bootstrapIcon = { icon: bootstrap, name: 'Bootstrap CSS' };
-export const nextJsIcon = { icon: nextjs, name: 'Next.js'};
+export const nextJsIcon = { icon: nextjs, name: 'Next.js' };
 export const trpcIcon = { icon: trpc, name: 'tRPC', height: '2em' };
 export const prismaIcon = { icon: prisma, name: 'Prisma' };
 export const tailwindIcon = { icon: tailwind, name: 'Tailwind CSS' };
 export const nextauthIcon = { icon: nextauth, name: 'NextAuth.js' };
-

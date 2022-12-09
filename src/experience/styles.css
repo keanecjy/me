@@ -3,8 +3,10 @@
 }
 
 .job-title {
+  display: flex;
   font-weight: bold;
   font-size: 1.3em;
+  align-items: center;
 }
 
 .single-desc {

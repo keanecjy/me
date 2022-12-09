@@ -19,7 +19,7 @@ import {
   postgreSQLIcon,
   reactIcon,
   relayIcon,
-  springIcon
+  springIcon,
 } from '../util/TechStack';
 import SingleExperience from './SingleExperience';
 import './styles.css';

@@ -16,15 +16,17 @@ const SingleProject = ({ props }) => {
         <h2>{name}</h2>
         <p style={{ color: isLight ? '#707070' : 'rgba(250,250,250,0.9)' }}>{description}</p>
         <div className="links">
-          <a
-            href={appLink}
-            className="app-link"
-            style={{ marginBottom: 6 }}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View the application here
-          </a>
+          {appLink && (
+            <a
+              href={appLink}
+              className="app-link"
+              style={{ marginBottom: 6 }}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View the application here
+            </a>
+          )}
           <a
             href={codeLink}
             className="app-link"
@@ -32,7 +34,7 @@ const SingleProject = ({ props }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            View the code for {name}
+            View the code here
           </a>
         </div>
         <IconList icons={techStack} />

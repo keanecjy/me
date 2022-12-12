@@ -1,5 +1,5 @@
 import carousellIcon from '../images/company/carousell.svg';
-import metaIcon from '../images/company/meta.gif';
+import metaIcon from '../images/company/meta.png';
 import seeduIcon from '../images/company/SE-EDU.png';
 import wiseIcon from '../images/company/wise.svg';
 

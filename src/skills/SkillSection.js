@@ -24,7 +24,7 @@ import {
 } from '../util/TechStack';
 import './styles.css';
 
-const Skills = () => {
+const SkillSection = () => {
   const mainSkills = [
     javaIcon,
     jsIcon,
@@ -61,4 +61,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default SkillSection;

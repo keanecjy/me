@@ -3,7 +3,7 @@ import '../projects/styles.css';
 import { MetaLogo } from '../util/CompanyLogos';
 import './styles.css';
 
-const Intro = () => {
+const IntroSection = () => {
   const INTRO =
     "Hi there! I'm Keane, and I enjoy building software that is both beautiful and impactful.";
   const CURRENT_JOB = 'Currently interning';
@@ -21,4 +21,4 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default IntroSection;

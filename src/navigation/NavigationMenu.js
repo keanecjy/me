@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { AiOutlineMenu } from 'react-icons/all';
+import Toggle from '../darkMode/toggleButton';
 import './styles.css';
 
 const NavigationMenu = ({ theme, toggleTheme }) => {
@@ -44,7 +45,7 @@ const NavigationMenu = ({ theme, toggleTheme }) => {
             Contact me
           </Nav.Link>
         </Nav>
-        {/* <Toggle theme={theme} toggleTheme={toggleTheme} /> */}
+        <Toggle theme={theme} toggleTheme={toggleTheme} />
       </Navbar.Collapse>
     </Navbar>
   );

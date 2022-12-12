@@ -2,6 +2,13 @@
   margin-bottom: -100px;
 }
 
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-top: 40px;
+}
+
 .job-title {
   display: flex;
   font-weight: bold;

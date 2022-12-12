@@ -1,15 +1,15 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import About from './about/About';
+import AboutSection from './about/AboutSection';
 import './App.css';
 import ScrollTopArrow from './component/scrolltoparrow/ScrollTopArrow';
 import Contact from './contact/Contact';
-import Experience from './experience/Experience';
+import ExperienceSection from './experience/ExperienceSection';
 import { GlobalStyles } from './global';
-import Intro from './intro/Intro';
+import IntroSection from './intro/IntroSection';
 import NavigationMenu from './navigation/NavigationMenu';
-import ProjectList from './projects/ProjectList';
-import Skills from './skills/Skills';
+import ProjectSection from './projects/ProjectSection';
+import SkillSection from './skills/SkillSection';
 import { darkTheme, lightTheme } from './theme';
 import { useDarkMode } from './useDarkMode';
 
@@ -36,16 +36,16 @@ function App() {
           <NavigationMenu theme={theme} toggleTheme={() => toggleTheme()} />
           <div className="main-app">
             <div className="intro-and-about">
-              <Intro />
+              <IntroSection />
               <div className="empty-space" id="about" />
-              <About />
+              <AboutSection />
             </div>
             <div className="empty-space" id="skills" />
-            <Skills />
+            <SkillSection />
             <div className="empty-space" id="experience" />
-            <Experience />
+            <ExperienceSection />
             <div className="empty-space" id="projects" />
-            <ProjectList />
+            <ProjectSection />
             <div className="empty-space" id="contact" />
             <Contact />
           </div>

@@ -21,10 +21,10 @@ import {
   relayIcon,
   springIcon,
 } from '../util/TechStack';
-import SingleExperience from './SingleExperience';
+import ExperienceItem from './ExperienceItem';
 import './styles.css';
 
-const Experience = () => {
+const ExperienceSection = () => {
   const experiences = [
     {
       position: 'Enterprise Software Engineer Intern',
@@ -38,7 +38,6 @@ const Experience = () => {
         'Utilized React Hooks and implemented lazy loading of modals to optimize frontend load times and improved on existing user flow',
       ],
       techStack: [reactIcon, flowIcon, graphQLIcon, relayIcon, hackIcon, entIcon],
-      marginTop: 40,
     },
     {
       position: 'Software Engineer Intern',
@@ -50,7 +49,6 @@ const Experience = () => {
         'Redesigned and developed gRPC APIs across several microservices to remove dependency on middle service layer and decrease latency of API calls',
       ],
       techStack: [javaIcon, springIcon, grpcIcon, postgreSQLIcon, groovyIcon, dockerIcon],
-      marginTop: 90,
     },
     {
       position: 'Software Engineer Intern',
@@ -62,7 +60,6 @@ const Experience = () => {
         'Leveraged knowledge in Factory and Command software design patterns to improve code design in multiple Golang services',
       ],
       techStack: [goIcon, grpcIcon, mySQLIcon],
-      marginTop: 90,
     },
     {
       position: 'Software Engineer',
@@ -73,7 +70,6 @@ const Experience = () => {
         'Conducted and coordinated code and design documentation reviews for features developed and bugs fixed',
       ],
       techStack: [javaIcon, javaFxIcon, gradleIcon, cssIcon, gitIcon],
-      marginTop: 90,
     },
   ];
 
@@ -85,11 +81,13 @@ const Experience = () => {
         xVal={6}
         yVal={8}
       />
-      {experiences.map((exp) => (
-        <SingleExperience props={exp} key={exp.company} />
-      ))}
+      <div className="experience-list">
+        {experiences.map((exp) => (
+          <ExperienceItem props={exp} key={exp.company} />
+        ))}
+      </div>
     </div>
   );
 };
 
-export default Experience;
+export default ExperienceSection;

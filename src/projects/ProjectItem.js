@@ -3,12 +3,12 @@ import { StateContext } from '../App';
 import IconList from '../component/iconList/IconList';
 import './styles.css';
 
-const Project = ({ props }) => {
-  const { name, description, appLink, gif, codeLink, techStack, marginTop } = props;
+const ProjectItem = ({ props }) => {
+  const { name, description, appLink, gif, codeLink, techStack } = props;
   const { isLight } = useContext(StateContext);
 
   return (
-    <div className="single-project" style={{ marginTop: marginTop }}>
+    <div className="single-project">
       <div className="project-image">
         <img src={gif} alt={name} className="image-style" width="100%" height="auto" />
       </div>
@@ -42,4 +42,4 @@ const Project = ({ props }) => {
     </div>
   );
 };
-export default Project;
+export default ProjectItem;

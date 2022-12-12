@@ -33,10 +33,10 @@ import {
   trpcIcon,
   tsIcon,
 } from '../util/TechStack';
-import Project from './ProjectItem';
+import ProjectItem from './ProjectItem';
 import './styles.css';
 
-const ProjectList = () => {
+const ProjectSection = () => {
   const projects = [
     {
       gif: ResumeReviewGif,
@@ -58,7 +58,6 @@ const ProjectList = () => {
         nextauthIcon,
         postgreSQLIcon,
       ],
-      marginTop: 40,
     },
     {
       gif: CleanCheeksGif,
@@ -70,7 +69,6 @@ const ProjectList = () => {
       appLink: 'https://clean-cheeks.vercel.app/',
       codeLink: 'https://github.com/keanecjy/CleanCheeks',
       techStack: [reactIcon, tsIcon, expressIcon, nodeJsIcon, bootstrapIcon, postgreSQLIcon],
-      marginTop: 90,
     },
     {
       gif: PeerPrepGif,
@@ -95,7 +93,6 @@ const ProjectList = () => {
       appLink: 'https://nusforums-2a1c8.web.app/',
       codeLink: 'https://github.com/keanecjy/nusforums',
       techStack: [reactIcon, reduxIcon, tsIcon, firebaseIcon, nodeJsIcon],
-      marginTop: 90,
     },
     {
       gif: TourMateImage,
@@ -121,7 +118,6 @@ const ProjectList = () => {
       appLink: 'https://helloworld-hnr.netlify.app/',
       codeLink: 'https://github.com/keanecjy/HelloWorld',
       techStack: [reactIcon, jsIcon, nodeJsIcon, expressIcon, mongodbIcon, socketIcon],
-      marginTop: 90,
     },
     {
       gif: SortAlgoGif,
@@ -135,7 +131,6 @@ const ProjectList = () => {
       appLink: 'https://algosort.netlify.app/',
       codeLink: 'https://github.com/keanecjy/sort-algo',
       techStack: [reactIcon, jsIcon, nodeJsIcon, cssIcon, htmlIcon, adobeXdIcon],
-      marginTop: 90,
     },
     {
       gif: ModuleFutureGif,
@@ -149,18 +144,19 @@ const ProjectList = () => {
       appLink: 'https://github.com/keanecjy/ModuleFuture#features-preview',
       codeLink: 'https://github.com/keanecjy/ModuleFuture',
       techStack: [reactIcon, jsIcon, nodeJsIcon, firebaseIcon, cssIcon, htmlIcon, adobeXdIcon],
-      marginTop: 90,
     },
   ];
 
   return (
     <div className="projects">
-      <Header title={'Projects'} icon={<img src={code} alt="" height="54em" width="auto" />} />
-      {projects.map((proj) => (
-        <Project props={proj} key={proj.name} />
-      ))}
+      <Header title="Projects" icon={<img src={code} alt="" height="54em" width="auto" />} />
+      <div className="project-list">
+        {projects.map((proj) => (
+          <ProjectItem props={proj} key={proj.name} />
+        ))}
+      </div>
     </div>
   );
 };
 
-export default ProjectList;
+export default ProjectSection;

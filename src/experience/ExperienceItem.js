@@ -4,8 +4,8 @@ import IconList from '../component/iconList/IconList';
 import '../projects/styles.css';
 import './styles.css';
 
-const SingleExperience = ({ props }) => {
-  const { position, company, period, desc, techStack, marginTop } = props;
+const ExperienceItem = ({ props }) => {
+  const { position, company, period, desc, techStack } = props;
   const { isLight } = useContext(StateContext);
 
   const grey = {
@@ -14,7 +14,7 @@ const SingleExperience = ({ props }) => {
   };
 
   return (
-    <div style={{ marginTop: marginTop }}>
+    <div>
       <div className="job-title">
         {position}&nbsp;@&nbsp;&nbsp;
         {company}
@@ -34,4 +34,4 @@ const SingleExperience = ({ props }) => {
   );
 };
 
-export default SingleExperience;
+export default ExperienceItem;

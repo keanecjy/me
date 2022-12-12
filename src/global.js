@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { lightTheme } from './theme';
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -62,6 +63,10 @@ ${'' /* TODO: TEST OUT MONSTERTAT theme */}
     height: 2px;
     transition: 300ms;
     width: 0;
+  }
+
+  .app a > img {
+    filter: ${({ theme }) => (theme === lightTheme ? '' : 'invert(75%) sepia(100%) saturate(50%)')};
   }
   
   .app button:focus {

@@ -3,7 +3,7 @@ import Header from '../component/header/header';
 import personal from '../images/app/personal.svg';
 import './styles.css';
 
-const About = () => {
+const AboutSection = () => {
   return (
     <div className="about">
       <Header
@@ -20,4 +20,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;

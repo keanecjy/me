@@ -2,7 +2,13 @@ import carousellIcon from '../images/company/carousell.svg';
 import metaIcon from '../images/company/meta.png';
 import seeduIcon from '../images/company/SE-EDU.png';
 import wiseIcon from '../images/company/wise.svg';
+import okxIcon from '../images/company/OKX_logo.svg.png';
 
+export const OKXLogo = () => (
+  <a href="https://www.okx.com/" target="_blank" rel="noopener noreferrer">
+    <img src={okxIcon} alt="loading..." height="36em" width="auto" />
+  </a>
+);
 export const MetaLogo = () => (
   <a href="https://www.metacareers.com/" target="_blank" rel="noopener noreferrer">
     <img

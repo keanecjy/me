@@ -12,9 +12,9 @@ const AboutSection = () => {
         yVal={12}
       />
       <p>
-        I am a final year Computer Science undergraduate at the National University of Singapore. I
-        enjoy learning and exploring new things in the field of Computer Science and Software
-        Engineering. My focus areas are in Software Engineering and Database Systems.
+        I am a Software Engineer at OKX. Previously studied Computer Science at National University
+        of Singapore. My experience mostly lies in web development and database systems, and have
+        dabbled with frontend web development as well!
       </p>
     </div>
   );

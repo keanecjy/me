@@ -1,12 +1,12 @@
 import LinkedIconList from '../component/linkedIconList/LinkedIconList';
 import '../projects/styles.css';
-import { MetaLogo } from '../util/CompanyLogos';
+import { OKXLogo } from '../util/CompanyLogos';
 import './styles.css';
 
 const IntroSection = () => {
   const INTRO =
     "Hi there! I'm Keane, and I enjoy building software that is both beautiful and impactful.";
-  const CURRENT_JOB = 'Currently interning';
+  const CURRENT_JOB = 'Currently a Software Engineer';
 
   return (
     <div className="top">
@@ -14,7 +14,7 @@ const IntroSection = () => {
       <p className="intro">{INTRO}</p>
       <p className="job">
         {CURRENT_JOB}&nbsp;@&nbsp;&nbsp;
-        <MetaLogo />
+        <OKXLogo />
       </p>
       <LinkedIconList />
     </div>

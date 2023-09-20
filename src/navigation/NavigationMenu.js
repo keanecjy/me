@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import { AiOutlineMenu } from 'react-icons/all';
+import { AiOutlineMenu } from 'react-icons/ai';
 import Toggle from '../darkMode/toggleButton';
 import './styles.css';
 

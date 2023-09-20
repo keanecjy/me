@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/all';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { StateContext } from '../../App';
 import LinkedIcon from '../linkedIcon/LinkedIcon';
 import './styles.css';

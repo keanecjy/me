@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IoIosArrowDropupCircle } from 'react-icons/all';
+import { IoIosArrowDropupCircle } from 'react-icons/io';
 import './styles.css';
 
 const ScrollTopArrow = () => {

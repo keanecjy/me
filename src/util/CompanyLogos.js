@@ -6,7 +6,7 @@ import okxIcon from '../images/company/OKX_logo.svg.png';
 
 export const OKXLogo = () => (
   <a href="https://www.okx.com/" target="_blank" rel="noopener noreferrer">
-    <img src={okxIcon} alt="loading..." height="36em" width="auto" />
+    <img src={okxIcon} alt="loading..." height="30em" width="auto" />
   </a>
 );
 export const MetaLogo = () => (

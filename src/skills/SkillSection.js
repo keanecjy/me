@@ -11,14 +11,14 @@ import {
   hackIcon,
   javaIcon,
   jsIcon,
-  postgreSQLIcon,
+  kafkaIcon,
+  mySQLIcon,
   prismaIcon,
   pythonIcon,
   reactIcon,
   redisIcon,
   reduxIcon,
   springIcon,
-  tailwindIcon,
   trpcIcon,
   tsIcon,
 } from '../util/TechStack';
@@ -27,26 +27,25 @@ import './styles.css';
 const SkillSection = () => {
   const mainSkills = [
     javaIcon,
+    springIcon,
+    reactIcon,
     jsIcon,
     tsIcon,
     expressIcon,
-    reactIcon,
     graphQLIcon,
     trpcIcon,
-    postgreSQLIcon,
-    firebaseIcon,
-    springIcon,
+    mySQLIcon,
   ];
 
   const otherSkills = [
-    grpcIcon,
-    hackIcon,
-    entIcon,
     goIcon,
     pythonIcon,
+    grpcIcon,
+    hackIcon,
     prismaIcon,
     redisIcon,
-    tailwindIcon,
+    kafkaIcon,
+    firebaseIcon,
     reduxIcon,
   ];
 

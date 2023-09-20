@@ -29,7 +29,7 @@ import './styles.css';
 const ExperienceSection = () => {
   const experiences = [
     {
-      position: 'Software Engineer Intern',
+      position: 'Software Engineer',
       company: <OKXLogo />,
       period: 'Feb 2023 - Present',
       desc: [

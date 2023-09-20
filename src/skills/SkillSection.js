@@ -2,7 +2,6 @@ import Header from '../component/header/header';
 import IconList from '../component/iconList/IconList';
 import code from '../images/app/skills.svg';
 import {
-  entIcon,
   expressIcon,
   firebaseIcon,
   goIcon,

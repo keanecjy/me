@@ -12,10 +12,10 @@ const AboutSection = () => {
         yVal={12}
       />
       <p>
-        I am a Software Engineer at OKX, and am currently part of the User Journey team. As a
+        I am a Software Engineer at OKX, where I am currently part of the User Growth team. As a
         Backend Engineer, I was involved in designing and scaling our homepage card architecture,
         which involved the card retrieval, scoring and re-ranking process. While my experience
-        mostly comes in backend development, I have also dabbled in frontend development as well,
+        mostly comes in backend development, I have some experience in frontend development as well,
         having had worked on React back at Meta.
       </p>
     </div>

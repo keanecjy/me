@@ -22,6 +22,7 @@ import {
   redisIcon,
   relayIcon,
   springIcon,
+  tsIcon,
 } from '../util/TechStack';
 import ExperienceItem from './ExperienceItem';
 import './styles.css';
@@ -39,7 +40,16 @@ const ExperienceSection = () => {
         'Spearheaded the development of the homepage card ranking system V2, which involves integration with AI team to obtain offline-predicted ranking user preference score and combining with the online ranking score based on CTR',
         'Collaborated with the infrastructure team to design and develop role-based access and permission control (RBAC) for the backend APIs',
       ],
-      techStack: [javaIcon, springIcon, mySQLIcon, redisIcon, kafkaIcon, reactIcon],
+      techStack: [
+        javaIcon,
+        springIcon,
+        mySQLIcon,
+        redisIcon,
+        kafkaIcon,
+        groovyIcon,
+        reactIcon,
+        tsIcon,
+      ],
     },
     {
       position: 'Software Engineer Intern',
@@ -50,16 +60,16 @@ const ExperienceSection = () => {
         'Developed reusable frontend components for the collaborator access tool, and extended usability to the sister teams as a general permission management tool',
         'Developed a general solution for sending real‑time push notifications over various mediums (email, chat) using a single unified interface to support the collaborator access tool',
         'Designed and built a role delegation tool, which allowed event owners to assign co-owners, by implementing asynchronous tasks to schedule delegations and takeovers',
-        '{Implemented triggers to allow for mutation of linked database and implemented observers to run lower‑priority logging and notifications',
+        'Implemented triggers to allow for mutation of linked database and implemented observers to run lower priority logging and notifications',
       ],
       techStack: [reactIcon, flowIcon, graphQLIcon, relayIcon, hackIcon, entIcon],
     },
     {
       position: 'Software Engineer Intern',
       company: <WiseLogo />,
-      period: 'May 2021 - Aug 2021',
+      period: 'May 2021 - Aug 2021, Dec 2021 - Jan 2022',
       desc: [
-        'edesigned and developed multiple backend gRPC API endpoints across several microservices, removing dependency on middle service layer in debit card generation process and contributed to decrease in average latency of API call',
+        'Redesigned and developed multiple backend gRPC API endpoints across several microservices, removing dependency on middle service layer in debit card generation process and contributed to decrease in average latency of API call',
         'Designed and built new versions of custom REST API endpoints to increase scalability and decrease size of JSON response payload',
         'Identified system bottlenecks and utilized server-side in-memory caching to optimize and reduce load on services in the business layer, eliminating timeout issues on several API calls and decreasing bug occurrence by 21%',
       ],

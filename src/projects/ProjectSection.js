@@ -43,8 +43,7 @@ const ProjectSection = () => {
       name: 'Resume Review Portal',
       description: `
       Resume Review Portal is a platform built to allow users to upload their resumes and get feedback
-      from the tech community. A collaboration with Tech Interview Handbook and part of 
-      CS3216 Software Product Engineering for Digital Markets.
+      from the tech community. A collaboration with Tech Interview Handbook.
       `,
       appLink: 'https://app.techinterviewhandbook.org/resumes',
       codeLink: 'https://github.com/yangshun/tech-interview-handbook',
@@ -64,7 +63,7 @@ const ProjectSection = () => {
       name: 'CleanCheeks',
       description: `
       CleanCheeks is a Progressive Web App built for users to find clean toilets throughout their 
-      time in NUS. Built with passion in CS3216 Software Product Engineering for Digital Markets.
+      time in NUS.
       `,
       appLink: 'https://clean-cheeks.vercel.app/',
       codeLink: 'https://github.com/keanecjy/CleanCheeks',
@@ -76,7 +75,6 @@ const ProjectSection = () => {
       description: `
         PeerPrep is a live collaborative coding interview platform built for students to
         practise solving coding problems together with their peers. Built with a microservice architecture.
-        Built with passion in CS3219 Software Engineering Principles and Patterns.
       `,
       codeLink: 'https://github.com/keanecjy/PeerPrep',
       techStack: [reactIcon, reduxIcon, tsIcon, nestIcon, redisIcon, postgreSQLIcon, socketIcon],
@@ -100,8 +98,7 @@ const ProjectSection = () => {
       description: `
       TourMate is an all-in-one collaborative trip management application that aims to make
       planning group trips fun and effortless. It provides a collaborative planner which supports
-      versioning of plans, voting, comments, recommendations, and more! Built with passion in
-      CS3217 Software Engineering on Modern Application Platforms.
+      versioning of plans, voting, comments, recommendations, and more!
       `,
       codeLink: 'https://github.com/keanecjy/TourMate',
       techStack: [swiftIcon, firebaseIcon, figmaIcon],

@@ -27,25 +27,25 @@ const SkillSection = () => {
   const mainSkills = [
     javaIcon,
     springIcon,
+    mySQLIcon,
+    redisIcon,
+    grpcIcon,
     reactIcon,
     jsIcon,
     tsIcon,
-    expressIcon,
-    graphQLIcon,
-    trpcIcon,
-    mySQLIcon,
   ];
 
   const otherSkills = [
     goIcon,
     pythonIcon,
-    grpcIcon,
-    hackIcon,
-    prismaIcon,
-    redisIcon,
     kafkaIcon,
+    expressIcon,
+    prismaIcon,
     firebaseIcon,
+    hackIcon,
+    graphQLIcon,
     reduxIcon,
+    trpcIcon,
   ];
 
   return (
